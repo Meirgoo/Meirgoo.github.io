@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Collection on Meirgoo Site</title><link>https://example.org/docs/collection/</link><description>Recent content in Collection on Meirgoo Site</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://example.org/docs/collection/index.xml" rel="self" type="application/rss+xml"/><item><title>book</title><link>https://example.org/docs/collection/book/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/collection/book/</guid><description>&lt;h1 id="book-make">
+ Book make
+ &lt;a class="anchor" href="#book-make">#&lt;/a>
+&lt;/h1>
+&lt;h2 id="正则">
+ 正则
+ &lt;a class="anchor" href="#%e6%ad%a3%e5%88%99">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="中文语境下获取章节目录设置">
+ 中文语境下获取章节目录设置
+ &lt;a class="anchor" href="#%e4%b8%ad%e6%96%87%e8%af%ad%e5%a2%83%e4%b8%8b%e8%8e%b7%e5%8f%96%e7%ab%a0%e8%8a%82%e7%9b%ae%e5%bd%95%e8%ae%be%e7%bd%ae">#&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-jsx" data-lang="jsx">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">//*[re:test(., &amp;#34;^\s*(简介|内容简介|序|楔子|尾声|后记|番外|[第卷][0123456789一二三四五六七八九十零〇百千两]*[卷回部章节])\s*([^课].*|)$&amp;#34;, &amp;#34;i&amp;#34;)]
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="行间距设置">
+ 行间距设置
+ &lt;a class="anchor" href="#%e8%a1%8c%e9%97%b4%e8%b7%9d%e8%ae%be%e7%bd%ae">#&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">p&lt;/span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">text-indent&lt;/span>:&lt;span style="color:#ae81ff">2&lt;/span>&lt;span style="color:#66d9ef">em&lt;/span>;&lt;span style="color:#75715e">/* 中文小说段首必备两个字的缩进*/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">line-height&lt;/span>:&lt;span style="color:#ae81ff">1.5&lt;/span>&lt;span style="color:#66d9ef">em&lt;/span>; &lt;span style="color:#75715e">/*设置行间距，这样段落里面每一行之间的间距就有半个字体大小的间距*/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">margin&lt;/span>:&lt;span style="color:#ae81ff">1&lt;/span>&lt;span style="color:#66d9ef">em&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; &lt;span style="color:#75715e">/*上下各有0.5em的外边距，这样段间距就是2em也就是2个字体大小，也可以设置成0.5em，看喜好 */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="替换标签p为h2">
+ 替换标签p为h2
+ &lt;a class="anchor" href="#%e6%9b%bf%e6%8d%a2%e6%a0%87%e7%ad%bep%e4%b8%bah2">#&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-jsx" data-lang="jsx">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;(&lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">s&lt;/span>&lt;span style="color:#f92672">*&lt;/span>(&lt;span style="color:#a6e22e">简介&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">内容简介&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">序&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">楔子&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">尾声&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">后记&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">番外&lt;/span>&lt;span style="color:#f92672">|&lt;/span>[&lt;span style="color:#a6e22e">第卷&lt;/span>][&lt;span style="color:#ae81ff">0123456789&lt;/span>&lt;span style="color:#a6e22e">一二三四五六七八九十零〇百千两&lt;/span>]&lt;span style="color:#f92672">*&lt;/span>[&lt;span style="color:#a6e22e">卷回部章节&lt;/span>])&lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">s&lt;/span>&lt;span style="color:#f92672">*&lt;/span>([&lt;span style="color:#f92672">^&lt;/span>&lt;span style="color:#a6e22e">课&lt;/span>].&lt;span style="color:#f92672">*|&lt;/span>))&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">h2&lt;/span>&amp;gt;&lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>&amp;lt;/&lt;span style="color:#f92672">h2&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Script</title><link>https://example.org/docs/collection/script/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/collection/script/</guid><description>&lt;h1 id="script">
+ Script
+ &lt;a class="anchor" href="#script">#&lt;/a>
+&lt;/h1>
+&lt;h2 id="powershell">
+ powershell
+ &lt;a class="anchor" href="#powershell">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="文件批量重命名">
+ 文件批量重命名
+ &lt;a class="anchor" href="#%e6%96%87%e4%bb%b6%e6%89%b9%e9%87%8f%e9%87%8d%e5%91%bd%e5%90%8d">#&lt;/a>
+&lt;/h3>
+&lt;p>Get-ChildItem *.epub | Rename-Item -Newname{ $_.Name -replace &amp;rsquo; - 未知&amp;rsquo;,&amp;rsquo;'}&lt;/p>
+&lt;h3 id="卸除windows内置应用保留windows商店和appinstaller">
+ 卸除windows内置应用，保留windows商店和AppInstaller
+ &lt;a class="anchor" href="#%e5%8d%b8%e9%99%a4windows%e5%86%85%e7%bd%ae%e5%ba%94%e7%94%a8%e4%bf%9d%e7%95%99windows%e5%95%86%e5%ba%97%e5%92%8cappinstaller">#&lt;/a>
+&lt;/h3>
+&lt;p>get-appxpackage|where{$&lt;em>.name -notmatch &amp;ldquo;Store&amp;rdquo;}|where{$&lt;/em>.name -notmatch &amp;ldquo;Installer&amp;rdquo;}|remove-appxpackage&lt;/p>
+&lt;h3 id="恢复微软商店">
+ 恢复微软商店
+ &lt;a class="anchor" href="#%e6%81%a2%e5%a4%8d%e5%be%ae%e8%bd%af%e5%95%86%e5%ba%97">#&lt;/a>
+&lt;/h3>
+&lt;p>Get-AppxPackage -AllUsers Microsoft.WindowsStore* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register &amp;ldquo;$($_.InstallLocation)\AppXManifest.xml&amp;rdquo;}&lt;/p>
+&lt;h3 id="切换win11右键菜单">
+ 切换win11右键菜单
+ &lt;a class="anchor" href="#%e5%88%87%e6%8d%a2win11%e5%8f%b3%e9%94%ae%e8%8f%9c%e5%8d%95">#&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-jsx" data-lang="jsx">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">reg&lt;/span> &lt;span style="color:#a6e22e">add&lt;/span> &lt;span style="color:#e6db74">&amp;#34;HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">f&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">ve&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">taskkill&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">f&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">im&lt;/span> &lt;span style="color:#a6e22e">explorer&lt;/span>.&lt;span style="color:#a6e22e">exe&lt;/span> &lt;span style="color:#f92672">&amp;amp;&lt;/span> &lt;span style="color:#a6e22e">start&lt;/span> &lt;span style="color:#a6e22e">explorer&lt;/span>.&lt;span style="color:#a6e22e">exe&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="切换win10右键菜单">
+ 切换win10右键菜单
+ &lt;a class="anchor" href="#%e5%88%87%e6%8d%a2win10%e5%8f%b3%e9%94%ae%e8%8f%9c%e5%8d%95">#&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-jsx" data-lang="jsx">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">reg&lt;/span> &lt;span style="color:#66d9ef">delete&lt;/span> &lt;span style="color:#e6db74">&amp;#34;HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">f&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">taskkill&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">f&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">im&lt;/span> &lt;span style="color:#a6e22e">explorer&lt;/span>.&lt;span style="color:#a6e22e">exe&lt;/span> &lt;span style="color:#f92672">&amp;amp;&lt;/span> &lt;span style="color:#a6e22e">start&lt;/span> &lt;span style="color:#a6e22e">explorer&lt;/span>.&lt;span style="color:#a6e22e">exe&lt;/span> 
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="关闭-xbox-game-bar">
+ 关闭 xbox game bar
+ &lt;a class="anchor" href="#%e5%85%b3%e9%97%ad-xbox-game-bar">#&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-jsx" data-lang="jsx">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">reg&lt;/span> &lt;span style="color:#a6e22e">add&lt;/span> &lt;span style="color:#e6db74">&amp;#34;HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">v&lt;/span> &lt;span style="color:#e6db74">&amp;#34;AppCaptureEnabled&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">t&lt;/span> &lt;span style="color:#e6db74">&amp;#34;REG_DWORD&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span> &lt;span style="color:#e6db74">&amp;#34;0&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">f&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">reg&lt;/span> &lt;span style="color:#a6e22e">add&lt;/span> &lt;span style="color:#e6db74">&amp;#34;HKCU\System\GameConfigStore&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">v&lt;/span> &lt;span style="color:#e6db74">&amp;#34;GameDVR_Enabled&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">t&lt;/span> &lt;span style="color:#e6db74">&amp;#34;REG_DWORD&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span> &lt;span style="color:#e6db74">&amp;#34;0&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">f&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Site</title><link>https://example.org/docs/collection/website/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/collection/website/</guid><description>&lt;h1 id="website-collect">
+ website collect
+ &lt;a class="anchor" href="#website-collect">#&lt;/a>
+&lt;/h1>
+&lt;p>&lt;a href="https://mathworld.wolfram.com/">https://mathworld.wolfram.com/&lt;/a> 数学百科&lt;/p>
+&lt;p>&lt;a href="https://musicmap.info/">https://musicmap.info/&lt;/a> 音乐谱系&lt;/p>
+&lt;p>&lt;a href="https://b0tster.itch.io/bbpsx">https://b0tster.itch.io/bbpsx&lt;/a> 血源诅咒PSX&lt;/p>
+&lt;p>&lt;a href="https://xbeibeix.com/api/bilibili/">https://xbeibeix.com/api/bilibili/&lt;/a> 贝贝B站视频下载&lt;/p>
+&lt;p>&lt;a href="https://quickref.cn/">https://quickref.cn/&lt;/a> 代码速查&lt;/p>
+&lt;p>&lt;a href="https://playnite.link/">https://playnite.link/&lt;/a> playnite&lt;/p>
+&lt;p>&lt;a href="https://www.myabandonware.com/">https://www.myabandonware.com/&lt;/a> 失落软件&lt;/p>
+&lt;p>&lt;a href="https://sms-activate.org/cn">https://sms-activate.org/cn&lt;/a> 在线接短信&lt;/p>
+&lt;h2 id="logic-puzzle-game">
+ Logic Puzzle Game
+ &lt;a class="anchor" href="#logic-puzzle-game">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="http://www.nikoli.co.jp/en/puzzles/">http://www.nikoli.co.jp/en/puzzles/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.pennydellpuzzles.com/">https://www.pennydellpuzzles.com/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://raetsel.vinckensteiner.com/logik/en/hidoku/">http://raetsel.vinckensteiner.com/logik/en/hidoku/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.brainbashers.com/skyscrapers.asp">https://www.brainbashers.com/skyscrapers.asp&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.janko.at/Raetsel/Pfeilpfad/index.htm">https://www.janko.at/Raetsel/Pfeilpfad/index.htm&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.conceptispuzzles.com/zh/index.aspx">https://www.conceptispuzzles.com/zh/index.aspx&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.sokobanonline.com/">https://www.sokobanonline.com/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.increpare.com/">https://www.increpare.com/&lt;/a>&lt;/p></description></item></channel></rss>
