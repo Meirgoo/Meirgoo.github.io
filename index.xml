@@ -1,7 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on Meirgoo Site</title><link>https://example.org/</link><description>Recent content in Introduction on Meirgoo Site</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>book</title><link>https://example.org/docs/collection/book/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/collection/book/</guid><description>&lt;h1 id="book-make">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on Meirgoo Site</title><link>https://example.org/</link><description>Recent content in Introduction on Meirgoo Site</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Privacy Policy</title><link>https://example.org/docs/project/simplereader/privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/project/simplereader/privacy-policy/</guid><description>&lt;h1 id="privacy-policy">
+ Privacy Policy
+ &lt;a class="anchor" href="#privacy-policy">#&lt;/a>
+&lt;/h1>
+&lt;p>&lt;strong>Privacy Policy&lt;/strong>&lt;/p>
+&lt;p>This privacy policy applies to the Simple Reader app (hereby referred to as &amp;ldquo;Application&amp;rdquo;) for mobile devices that was created by Meirgoo (hereby referred to as &amp;ldquo;Service Provider&amp;rdquo;) as a Commercial service. This service is intended for use &amp;ldquo;AS IS&amp;rdquo;.&lt;/p>
+&lt;p>&lt;strong>What information does the Application obtain and how is it used?&lt;/strong>&lt;/p>
+&lt;p>The Application does not obtain any information when you download and use it. Registration is not required to use the Application.&lt;/p></description></item><item><title>Terms of Use</title><link>https://example.org/docs/project/simplereader/terms-of-use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/project/simplereader/terms-of-use/</guid><description>&lt;h1 id="terms-of-use">
+ Terms of Use
+ &lt;a class="anchor" href="#terms-of-use">#&lt;/a>
+&lt;/h1>
+&lt;p>&lt;strong>Terms &amp;amp; Conditions&lt;/strong>&lt;/p>
+&lt;p>These terms and conditions apply to the Simple Reader app (hereby referred to as &amp;ldquo;Application&amp;rdquo;) for mobile devices that was created by Meirgoo (hereby referred to as &amp;ldquo;Service Provider&amp;rdquo;) as a Commercial service.&lt;/p>
+&lt;p>Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application. Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.&lt;/p></description></item><item><title>电子书处理脚本</title><link>https://example.org/docs/collection/book/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/collection/book/</guid><description>&lt;h1 id="book-make">
  Book make
  &lt;a class="anchor" href="#book-make">#&lt;/a>
 &lt;/h1>
+&lt;p>过去处理电子书用的脚本收藏，不是很多，也有一段时间没用了，以后做电子书可能会再添加调整，先这么放着吧。&lt;/p>
 &lt;h2 id="正则">
  正则
  &lt;a class="anchor" href="#%e6%ad%a3%e5%88%99">#&lt;/a>
@@ -27,17 +41,41 @@
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-jsx" data-lang="jsx">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;(&lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">s&lt;/span>&lt;span style="color:#f92672">*&lt;/span>(&lt;span style="color:#a6e22e">简介&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">内容简介&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">序&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">楔子&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">尾声&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">后记&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">番外&lt;/span>&lt;span style="color:#f92672">|&lt;/span>[&lt;span style="color:#a6e22e">第卷&lt;/span>][&lt;span style="color:#ae81ff">0123456789&lt;/span>&lt;span style="color:#a6e22e">一二三四五六七八九十零〇百千两&lt;/span>]&lt;span style="color:#f92672">*&lt;/span>[&lt;span style="color:#a6e22e">卷回部章节&lt;/span>])&lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">s&lt;/span>&lt;span style="color:#f92672">*&lt;/span>([&lt;span style="color:#f92672">^&lt;/span>&lt;span style="color:#a6e22e">课&lt;/span>].&lt;span style="color:#f92672">*|&lt;/span>))&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">h2&lt;/span>&amp;gt;&lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>&amp;lt;/&lt;span style="color:#f92672">h2&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Privacy Policy</title><link>https://example.org/docs/project/simplereader/privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/project/simplereader/privacy-policy/</guid><description>&lt;h1 id="privacy-policy">
- Privacy Policy
- &lt;a class="anchor" href="#privacy-policy">#&lt;/a>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>站点收藏</title><link>https://example.org/docs/collection/website/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/collection/website/</guid><description>&lt;h1 id="website-collect">
+ website collect
+ &lt;a class="anchor" href="#website-collect">#&lt;/a>
 &lt;/h1>
-&lt;p>&lt;strong>Privacy Policy&lt;/strong>&lt;/p>
-&lt;p>This privacy policy applies to the Simple Reader app (hereby referred to as &amp;ldquo;Application&amp;rdquo;) for mobile devices that was created by Meirgoo (hereby referred to as &amp;ldquo;Service Provider&amp;rdquo;) as a Commercial service. This service is intended for use &amp;ldquo;AS IS&amp;rdquo;.&lt;/p>
-&lt;p>&lt;strong>What information does the Application obtain and how is it used?&lt;/strong>&lt;/p>
-&lt;p>The Application does not obtain any information when you download and use it. Registration is not required to use the Application.&lt;/p></description></item><item><title>Script</title><link>https://example.org/docs/collection/script/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/collection/script/</guid><description>&lt;h1 id="script">
+&lt;p>一些有意思/有用的站点收藏。&lt;/p>
+&lt;h2 id="资源站">
+ 资源站
+ &lt;a class="anchor" href="#%e8%b5%84%e6%ba%90%e7%ab%99">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="https://mathworld.wolfram.com/">https://mathworld.wolfram.com/&lt;/a> 数学百科&lt;/p>
+&lt;p>&lt;a href="https://musicmap.info/">https://musicmap.info/&lt;/a> 音乐谱系图&lt;/p>
+&lt;p>&lt;a href="https://quickref.cn/">https://quickref.cn/&lt;/a> 代码速查&lt;/p>
+&lt;p>&lt;a href="https://www.myabandonware.com/">https://www.myabandonware.com/&lt;/a> 失落软件&lt;/p>
+&lt;h2 id="工具站">
+ 工具站
+ &lt;a class="anchor" href="#%e5%b7%a5%e5%85%b7%e7%ab%99">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="https://xbeibeix.com/api/bilibili/">https://xbeibeix.com/api/bilibili/&lt;/a> 贝贝B站视频下载&lt;/p>
+&lt;p>&lt;a href="https://sms-activate.org/cn">https://sms-activate.org/cn&lt;/a> 在线接短信&lt;/p>
+&lt;h2 id="在线逻辑谜题">
+ 在线逻辑谜题
+ &lt;a class="anchor" href="#%e5%9c%a8%e7%ba%bf%e9%80%bb%e8%be%91%e8%b0%9c%e9%a2%98">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="http://www.nikoli.co.jp/en/puzzles/">http://www.nikoli.co.jp/en/puzzles/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.pennydellpuzzles.com/">https://www.pennydellpuzzles.com/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://raetsel.vinckensteiner.com/logik/en/hidoku/">http://raetsel.vinckensteiner.com/logik/en/hidoku/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.brainbashers.com/skyscrapers.asp">https://www.brainbashers.com/skyscrapers.asp&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.janko.at/Raetsel/Pfeilpfad/index.htm">https://www.janko.at/Raetsel/Pfeilpfad/index.htm&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.conceptispuzzles.com/zh/index.aspx">https://www.conceptispuzzles.com/zh/index.aspx&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.sokobanonline.com/">https://www.sokobanonline.com/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.increpare.com/">https://www.increpare.com/&lt;/a>&lt;/p></description></item><item><title>脚本收藏</title><link>https://example.org/docs/collection/script/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/collection/script/</guid><description>&lt;h1 id="script">
  Script
  &lt;a class="anchor" href="#script">#&lt;/a>
 &lt;/h1>
+&lt;p>个人常用常见的一些脚本。&lt;/p>
 &lt;h2 id="powershell">
  powershell
  &lt;a class="anchor" href="#powershell">#&lt;/a>
@@ -75,31 +113,4 @@
 &lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-jsx" data-lang="jsx">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">reg&lt;/span> &lt;span style="color:#a6e22e">add&lt;/span> &lt;span style="color:#e6db74">&amp;#34;HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">v&lt;/span> &lt;span style="color:#e6db74">&amp;#34;AppCaptureEnabled&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">t&lt;/span> &lt;span style="color:#e6db74">&amp;#34;REG_DWORD&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span> &lt;span style="color:#e6db74">&amp;#34;0&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">f&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">reg&lt;/span> &lt;span style="color:#a6e22e">add&lt;/span> &lt;span style="color:#e6db74">&amp;#34;HKCU\System\GameConfigStore&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">v&lt;/span> &lt;span style="color:#e6db74">&amp;#34;GameDVR_Enabled&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">t&lt;/span> &lt;span style="color:#e6db74">&amp;#34;REG_DWORD&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span> &lt;span style="color:#e6db74">&amp;#34;0&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">f&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Site</title><link>https://example.org/docs/collection/website/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/collection/website/</guid><description>&lt;h1 id="website-collect">
- website collect
- &lt;a class="anchor" href="#website-collect">#&lt;/a>
-&lt;/h1>
-&lt;p>&lt;a href="https://mathworld.wolfram.com/">https://mathworld.wolfram.com/&lt;/a> 数学百科&lt;/p>
-&lt;p>&lt;a href="https://musicmap.info/">https://musicmap.info/&lt;/a> 音乐谱系&lt;/p>
-&lt;p>&lt;a href="https://xbeibeix.com/api/bilibili/">https://xbeibeix.com/api/bilibili/&lt;/a> 贝贝B站视频下载&lt;/p>
-&lt;p>&lt;a href="https://quickref.cn/">https://quickref.cn/&lt;/a> 代码速查&lt;/p>
-&lt;p>&lt;a href="https://www.myabandonware.com/">https://www.myabandonware.com/&lt;/a> 失落软件&lt;/p>
-&lt;p>&lt;a href="https://sms-activate.org/cn">https://sms-activate.org/cn&lt;/a> 在线接短信&lt;/p>
-&lt;h2 id="logic-puzzle-game">
- Logic Puzzle Game
- &lt;a class="anchor" href="#logic-puzzle-game">#&lt;/a>
-&lt;/h2>
-&lt;p>&lt;a href="http://www.nikoli.co.jp/en/puzzles/">http://www.nikoli.co.jp/en/puzzles/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.pennydellpuzzles.com/">https://www.pennydellpuzzles.com/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="http://raetsel.vinckensteiner.com/logik/en/hidoku/">http://raetsel.vinckensteiner.com/logik/en/hidoku/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.brainbashers.com/skyscrapers.asp">https://www.brainbashers.com/skyscrapers.asp&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.janko.at/Raetsel/Pfeilpfad/index.htm">https://www.janko.at/Raetsel/Pfeilpfad/index.htm&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.conceptispuzzles.com/zh/index.aspx">https://www.conceptispuzzles.com/zh/index.aspx&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.sokobanonline.com/">https://www.sokobanonline.com/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.increpare.com/">https://www.increpare.com/&lt;/a>&lt;/p></description></item><item><title>Terms of Use</title><link>https://example.org/docs/project/simplereader/terms-of-use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/project/simplereader/terms-of-use/</guid><description>&lt;h1 id="terms-of-use">
- Terms of Use
- &lt;a class="anchor" href="#terms-of-use">#&lt;/a>
-&lt;/h1>
-&lt;p>&lt;strong>Terms &amp;amp; Conditions&lt;/strong>&lt;/p>
-&lt;p>These terms and conditions apply to the Simple Reader app (hereby referred to as &amp;ldquo;Application&amp;rdquo;) for mobile devices that was created by Meirgoo (hereby referred to as &amp;ldquo;Service Provider&amp;rdquo;) as a Commercial service.&lt;/p>
-&lt;p>Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application. Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.&lt;/p></description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
