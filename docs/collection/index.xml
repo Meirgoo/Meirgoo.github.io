@@ -1,34 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Collection on Meirgoo Site</title><link>https://example.org/docs/collection/</link><description>Recent content in Collection on Meirgoo Site</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://example.org/docs/collection/index.xml" rel="self" type="application/rss+xml"/><item><title>电子书处理脚本</title><link>https://example.org/docs/collection/book/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/collection/book/</guid><description>&lt;h1 id="book-make">
- Book make
- &lt;a class="anchor" href="#book-make">#&lt;/a>
-&lt;/h1>
-&lt;p>过去处理电子书用的脚本收藏，不是很多，也有一段时间没用了，以后做电子书可能会再添加调整，先这么放着吧。&lt;/p>
-&lt;h2 id="正则">
- 正则
- &lt;a class="anchor" href="#%e6%ad%a3%e5%88%99">#&lt;/a>
-&lt;/h2>
-&lt;h3 id="中文语境下获取章节目录设置">
- 中文语境下获取章节目录设置
- &lt;a class="anchor" href="#%e4%b8%ad%e6%96%87%e8%af%ad%e5%a2%83%e4%b8%8b%e8%8e%b7%e5%8f%96%e7%ab%a0%e8%8a%82%e7%9b%ae%e5%bd%95%e8%ae%be%e7%bd%ae">#&lt;/a>
-&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-jsx" data-lang="jsx">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">//*[re:test(., &amp;#34;^\s*(简介|内容简介|序|楔子|尾声|后记|番外|[第卷][0123456789一二三四五六七八九十零〇百千两]*[卷回部章节])\s*([^课].*|)$&amp;#34;, &amp;#34;i&amp;#34;)]
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="行间距设置">
- 行间距设置
- &lt;a class="anchor" href="#%e8%a1%8c%e9%97%b4%e8%b7%9d%e8%ae%be%e7%bd%ae">#&lt;/a>
-&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">p&lt;/span>{
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">text-indent&lt;/span>:&lt;span style="color:#ae81ff">2&lt;/span>&lt;span style="color:#66d9ef">em&lt;/span>;&lt;span style="color:#75715e">/* 中文小说段首必备两个字的缩进*/&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">line-height&lt;/span>:&lt;span style="color:#ae81ff">1.5&lt;/span>&lt;span style="color:#66d9ef">em&lt;/span>; &lt;span style="color:#75715e">/*设置行间距，这样段落里面每一行之间的间距就有半个字体大小的间距*/&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">margin&lt;/span>:&lt;span style="color:#ae81ff">1&lt;/span>&lt;span style="color:#66d9ef">em&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; &lt;span style="color:#75715e">/*上下各有0.5em的外边距，这样段间距就是2em也就是2个字体大小，也可以设置成0.5em，看喜好 */&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="替换标签p为h2">
- 替换标签p为h2
- &lt;a class="anchor" href="#%e6%9b%bf%e6%8d%a2%e6%a0%87%e7%ad%bep%e4%b8%bah2">#&lt;/a>
-&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-jsx" data-lang="jsx">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;(&lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">s&lt;/span>&lt;span style="color:#f92672">*&lt;/span>(&lt;span style="color:#a6e22e">简介&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">内容简介&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">序&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">楔子&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">尾声&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">后记&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">番外&lt;/span>&lt;span style="color:#f92672">|&lt;/span>[&lt;span style="color:#a6e22e">第卷&lt;/span>][&lt;span style="color:#ae81ff">0123456789&lt;/span>&lt;span style="color:#a6e22e">一二三四五六七八九十零〇百千两&lt;/span>]&lt;span style="color:#f92672">*&lt;/span>[&lt;span style="color:#a6e22e">卷回部章节&lt;/span>])&lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">s&lt;/span>&lt;span style="color:#f92672">*&lt;/span>([&lt;span style="color:#f92672">^&lt;/span>&lt;span style="color:#a6e22e">课&lt;/span>].&lt;span style="color:#f92672">*|&lt;/span>))&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">h2&lt;/span>&amp;gt;&lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>&amp;lt;/&lt;span style="color:#f92672">h2&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>站点收藏</title><link>https://example.org/docs/collection/website/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/collection/website/</guid><description>&lt;h1 id="website-collect">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>快速链接 on Meirgoo Site</title><link>https://example.org/docs/collection/</link><description>Recent content in 快速链接 on Meirgoo Site</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://example.org/docs/collection/index.xml" rel="self" type="application/rss+xml"/><item><title>站点收藏</title><link>https://example.org/docs/collection/website/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/collection/website/</guid><description>&lt;h1 id="website-collect">
  website collect
  &lt;a class="anchor" href="#website-collect">#&lt;/a>
 &lt;/h1>
@@ -37,28 +7,76 @@
  资源站
  &lt;a class="anchor" href="#%e8%b5%84%e6%ba%90%e7%ab%99">#&lt;/a>
 &lt;/h2>
-&lt;p>&lt;a href="https://mathworld.wolfram.com/">https://mathworld.wolfram.com/&lt;/a> 数学百科&lt;/p>
-&lt;p>&lt;a href="https://musicmap.info/">https://musicmap.info/&lt;/a> 音乐谱系图&lt;/p>
-&lt;p>&lt;a href="https://quickref.cn/">https://quickref.cn/&lt;/a> 代码速查&lt;/p>
-&lt;p>&lt;a href="https://www.myabandonware.com/">https://www.myabandonware.com/&lt;/a> 失落软件&lt;/p>
+&lt;h3 id="数学天地">
+ 数学天地
+ &lt;a class="anchor" href="#%e6%95%b0%e5%ad%a6%e5%a4%a9%e5%9c%b0">#&lt;/a>
+&lt;/h3>
+&lt;p>由Eric Weisstein创建的线上数学百科全书。&lt;/p>
+&lt;p>中文站：https://mathworld.net.cn/&lt;/p>
+&lt;p>英文站：https://mathworld.wolfram.com/&lt;/p>
+&lt;h3 id="音乐谱系图">
+ 音乐谱系图
+ &lt;a class="anchor" href="#%e9%9f%b3%e4%b9%90%e8%b0%b1%e7%b3%bb%e5%9b%be">#&lt;/a>
+&lt;/h3>
+&lt;p>可视化的现代音乐历史和继承关系站点（全英）。&lt;/p>
+&lt;p>&lt;a href="https://musicmap.info/">https://musicmap.info/&lt;/a>&lt;/p>
+&lt;h3 id="编程语言速查">
+ 编程语言速查
+ &lt;a class="anchor" href="#%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%e9%80%9f%e6%9f%a5">#&lt;/a>
+&lt;/h3>
+&lt;p>面向开发人员的大多数编程语言相关知识速查，不过普遍篇幅不长，并不怎么适合深入一门语言。&lt;/p>
+&lt;p>源项目：https://github.com/Fechin/reference&lt;/p>
+&lt;p>源站点：https://cheatsheets.zip/&lt;/p>
+&lt;p>一个中文翻译站点（类似的有多个已部署项目）：https://quickref.cn/&lt;/p>
 &lt;h2 id="工具站">
  工具站
  &lt;a class="anchor" href="#%e5%b7%a5%e5%85%b7%e7%ab%99">#&lt;/a>
 &lt;/h2>
-&lt;p>&lt;a href="https://xbeibeix.com/api/bilibili/">https://xbeibeix.com/api/bilibili/&lt;/a> 贝贝B站视频下载&lt;/p>
-&lt;p>&lt;a href="https://sms-activate.org/cn">https://sms-activate.org/cn&lt;/a> 在线接短信&lt;/p>
-&lt;h2 id="在线逻辑谜题">
- 在线逻辑谜题
- &lt;a class="anchor" href="#%e5%9c%a8%e7%ba%bf%e9%80%bb%e8%be%91%e8%b0%9c%e9%a2%98">#&lt;/a>
+&lt;h3 id="哔哩哔哩视频下载">
+ 哔哩哔哩视频下载
+ &lt;a class="anchor" href="#%e5%93%94%e5%93%a9%e5%93%94%e5%93%a9%e8%a7%86%e9%a2%91%e4%b8%8b%e8%bd%bd">#&lt;/a>
+&lt;/h3>
+&lt;p>新站好像支持抖音了，具体这个站点发展方向再看吧，我个人觉得这个站点前景不是特别明朗。&lt;/p>
+&lt;p>&lt;a href="https://xbeibeix.com/api/bilibili/">https://xbeibeix.com/api/bilibili/&lt;/a>&lt;/p>
+&lt;h3 id="在线接短信">
+ 在线接短信
+ &lt;a class="anchor" href="#%e5%9c%a8%e7%ba%bf%e6%8e%a5%e7%9f%ad%e4%bf%a1">#&lt;/a>
+&lt;/h3>
+&lt;p>前两年注册ChatGPT时候用的，注册海外服务基本没什么问题，价格也很便宜，国内可以直接访问，体验下来是个还不错的网站。&lt;/p>
+&lt;p>&lt;a href="https://sms-activate.org/cn">https://sms-activate.org/cn&lt;/a> &lt;/p>
+&lt;h2 id="游戏">
+ 游戏
+ &lt;a class="anchor" href="#%e6%b8%b8%e6%88%8f">#&lt;/a>
 &lt;/h2>
-&lt;p>&lt;a href="http://www.nikoli.co.jp/en/puzzles/">http://www.nikoli.co.jp/en/puzzles/&lt;/a>&lt;/p>
+&lt;h3 id="失落软件">
+ 失落软件
+ &lt;a class="anchor" href="#%e5%a4%b1%e8%90%bd%e8%bd%af%e4%bb%b6">#&lt;/a>
+&lt;/h3>
+&lt;p>收集1965-2013失落游戏媒体的网站。&lt;/p>
+&lt;p>&lt;a href="https://www.myabandonware.com/">https://www.myabandonware.com/&lt;/a>&lt;/p>
+&lt;h3 id="nikoli-日本实体谜题提供商-英日">
+ nikoli 日本实体谜题提供商 （英日）
+ &lt;a class="anchor" href="#nikoli-%e6%97%a5%e6%9c%ac%e5%ae%9e%e4%bd%93%e8%b0%9c%e9%a2%98%e6%8f%90%e4%be%9b%e5%95%86-%e8%8b%b1%e6%97%a5">#&lt;/a>
+&lt;/h3>
+&lt;p>一家来自日本的“实体”谜题游戏提供商，书啊之类的，不得不说这家公司网站呈现很符合我对日本公司的刻板印象，页面底端怎么还2001-2021呢，实体游戏大概是没必要去玩了。&lt;/p>
+&lt;p>&lt;a href="https://www.nikoli.co.jp/en/">https://www.nikoli.co.jp/en/&lt;/a>&lt;/p>
+&lt;h3 id="pennydell-美国实体谜题提供商-英">
+ PennyDell 美国实体谜题提供商 （英）
+ &lt;a class="anchor" href="#pennydell-%e7%be%8e%e5%9b%bd%e5%ae%9e%e4%bd%93%e8%b0%9c%e9%a2%98%e6%8f%90%e4%be%9b%e5%95%86-%e8%8b%b1">#&lt;/a>
+&lt;/h3>
+&lt;p>类似于上一条，不过是美国加拿大地区的，只能说海外实体游戏还是和大多数国人无缘了。&lt;/p>
 &lt;p>&lt;a href="https://www.pennydellpuzzles.com/">https://www.pennydellpuzzles.com/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="http://raetsel.vinckensteiner.com/logik/en/hidoku/">http://raetsel.vinckensteiner.com/logik/en/hidoku/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.brainbashers.com/skyscrapers.asp">https://www.brainbashers.com/skyscrapers.asp&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.janko.at/Raetsel/Pfeilpfad/index.htm">https://www.janko.at/Raetsel/Pfeilpfad/index.htm&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.conceptispuzzles.com/zh/index.aspx">https://www.conceptispuzzles.com/zh/index.aspx&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.sokobanonline.com/">https://www.sokobanonline.com/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.increpare.com/">https://www.increpare.com/&lt;/a>&lt;/p></description></item><item><title>脚本收藏</title><link>https://example.org/docs/collection/script/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/collection/script/</guid><description>&lt;h1 id="script">
+&lt;h3 id="vinckensteiner-奥地利在线谜题-英">
+ Vinckensteiner 奥地利在线谜题 （英）
+ &lt;a class="anchor" href="#vinckensteiner-%e5%a5%a5%e5%9c%b0%e5%88%a9%e5%9c%a8%e7%ba%bf%e8%b0%9c%e9%a2%98-%e8%8b%b1">#&lt;/a>
+&lt;/h3>
+&lt;p>在线谜题，基本都是数独或者数独变种。&lt;/p>
+&lt;p>&lt;a href="https://raetsel.vinckensteiner.com/en/">https://raetsel.vinckensteiner.com/en/&lt;/a>&lt;/p>
+&lt;h3 id="brainbashers-英国在线谜题-英">
+ BrainBashers 英国在线谜题 （英）
+ &lt;a class="anchor" href="#brainbashers-%e8%8b%b1%e5%9b%bd%e5%9c%a8%e7%ba%bf%e8%b0%9c%e9%a2%98-%e8%8b%b1">#&lt;/a>
+&lt;/h3>
+&lt;p>在线谜题，种类多一些，但这个网站直观体验不太好，交互上一些东西可能不是那么直观。&lt;/p></description></item><item><title>脚本收藏</title><link>https://example.org/docs/collection/script/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/collection/script/</guid><description>&lt;h1 id="script">
  Script
  &lt;a class="anchor" href="#script">#&lt;/a>
 &lt;/h1>
@@ -100,4 +118,34 @@
 &lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-jsx" data-lang="jsx">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">reg&lt;/span> &lt;span style="color:#a6e22e">add&lt;/span> &lt;span style="color:#e6db74">&amp;#34;HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">v&lt;/span> &lt;span style="color:#e6db74">&amp;#34;AppCaptureEnabled&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">t&lt;/span> &lt;span style="color:#e6db74">&amp;#34;REG_DWORD&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span> &lt;span style="color:#e6db74">&amp;#34;0&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">f&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">reg&lt;/span> &lt;span style="color:#a6e22e">add&lt;/span> &lt;span style="color:#e6db74">&amp;#34;HKCU\System\GameConfigStore&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">v&lt;/span> &lt;span style="color:#e6db74">&amp;#34;GameDVR_Enabled&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">t&lt;/span> &lt;span style="color:#e6db74">&amp;#34;REG_DWORD&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span> &lt;span style="color:#e6db74">&amp;#34;0&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">f&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>电子书处理脚本</title><link>https://example.org/docs/collection/book/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/docs/collection/book/</guid><description>&lt;h1 id="book-make">
+ Book make
+ &lt;a class="anchor" href="#book-make">#&lt;/a>
+&lt;/h1>
+&lt;p>过去处理电子书用的脚本收藏，不是很多，也有一段时间没用了，以后做电子书可能会再添加调整，先这么放着吧。&lt;/p>
+&lt;h2 id="正则">
+ 正则
+ &lt;a class="anchor" href="#%e6%ad%a3%e5%88%99">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="中文语境下获取章节目录设置">
+ 中文语境下获取章节目录设置
+ &lt;a class="anchor" href="#%e4%b8%ad%e6%96%87%e8%af%ad%e5%a2%83%e4%b8%8b%e8%8e%b7%e5%8f%96%e7%ab%a0%e8%8a%82%e7%9b%ae%e5%bd%95%e8%ae%be%e7%bd%ae">#&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-jsx" data-lang="jsx">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">//*[re:test(., &amp;#34;^\s*(简介|内容简介|序|楔子|尾声|后记|番外|[第卷][0123456789一二三四五六七八九十零〇百千两]*[卷回部章节])\s*([^课].*|)$&amp;#34;, &amp;#34;i&amp;#34;)]
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="行间距设置">
+ 行间距设置
+ &lt;a class="anchor" href="#%e8%a1%8c%e9%97%b4%e8%b7%9d%e8%ae%be%e7%bd%ae">#&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">p&lt;/span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">text-indent&lt;/span>:&lt;span style="color:#ae81ff">2&lt;/span>&lt;span style="color:#66d9ef">em&lt;/span>;&lt;span style="color:#75715e">/* 中文小说段首必备两个字的缩进*/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">line-height&lt;/span>:&lt;span style="color:#ae81ff">1.5&lt;/span>&lt;span style="color:#66d9ef">em&lt;/span>; &lt;span style="color:#75715e">/*设置行间距，这样段落里面每一行之间的间距就有半个字体大小的间距*/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">margin&lt;/span>:&lt;span style="color:#ae81ff">1&lt;/span>&lt;span style="color:#66d9ef">em&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; &lt;span style="color:#75715e">/*上下各有0.5em的外边距，这样段间距就是2em也就是2个字体大小，也可以设置成0.5em，看喜好 */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="替换标签p为h2">
+ 替换标签p为h2
+ &lt;a class="anchor" href="#%e6%9b%bf%e6%8d%a2%e6%a0%87%e7%ad%bep%e4%b8%bah2">#&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-jsx" data-lang="jsx">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;(&lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">s&lt;/span>&lt;span style="color:#f92672">*&lt;/span>(&lt;span style="color:#a6e22e">简介&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">内容简介&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">序&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">楔子&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">尾声&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">后记&lt;/span>&lt;span style="color:#f92672">|&lt;/span>&lt;span style="color:#a6e22e">番外&lt;/span>&lt;span style="color:#f92672">|&lt;/span>[&lt;span style="color:#a6e22e">第卷&lt;/span>][&lt;span style="color:#ae81ff">0123456789&lt;/span>&lt;span style="color:#a6e22e">一二三四五六七八九十零〇百千两&lt;/span>]&lt;span style="color:#f92672">*&lt;/span>[&lt;span style="color:#a6e22e">卷回部章节&lt;/span>])&lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">s&lt;/span>&lt;span style="color:#f92672">*&lt;/span>([&lt;span style="color:#f92672">^&lt;/span>&lt;span style="color:#a6e22e">课&lt;/span>].&lt;span style="color:#f92672">*|&lt;/span>))&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">h2&lt;/span>&amp;gt;&lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>&amp;lt;/&lt;span style="color:#f92672">h2&lt;/span>&amp;gt;
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
