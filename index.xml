@@ -141,13 +141,13 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e"># /!\ 这是一个实验性的功能，可能会在任何时候被删除或更改。&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e"># (可选，实验性的，默认为false) 启用service worker缓存访问过的页面和资源以供离线使用。&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">BookServiceWorker&lt;/span> = &lt;span style="color:#66d9ef">true&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="文档组织">
- 文档组织
- &lt;a class="anchor" href="#%e6%96%87%e6%a1%a3%e7%bb%84%e7%bb%87">#&lt;/a>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="文件结构">
+ 文件结构
+ &lt;a class="anchor" href="#%e6%96%87%e4%bb%b6%e7%bb%93%e6%9e%84">#&lt;/a>
 &lt;/h2>
-&lt;p>默认情况下，主题会从 content/docs 目录下渲染文章结构，如果在这个位置新建Markdown文档会自动生成带有title和weight的文件头，比如新建立的这篇文章就有如下文件头：&lt;/p></description></item><item><title>Hugo建站</title><link>https://meirgoo.net/docs/tech/hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://meirgoo.net/docs/tech/hugo/</guid><description>&lt;h1 id="在网上圈出一亩三分地-你最靠谱的静态网站上线指南施工现场">
- 在网上圈出一亩三分地-你最靠谱的静态网站上线指南（施工现场）
- &lt;a class="anchor" href="#%e5%9c%a8%e7%bd%91%e4%b8%8a%e5%9c%88%e5%87%ba%e4%b8%80%e4%ba%a9%e4%b8%89%e5%88%86%e5%9c%b0-%e4%bd%a0%e6%9c%80%e9%9d%a0%e8%b0%b1%e7%9a%84%e9%9d%99%e6%80%81%e7%bd%91%e7%ab%99%e4%b8%8a%e7%ba%bf%e6%8c%87%e5%8d%97%e6%96%bd%e5%b7%a5%e7%8e%b0%e5%9c%ba">#&lt;/a>
+&lt;p>hugo-book该主题对文档的组织结构有一定要求，这是本站的根目录下content目录内部分文件的组织结构。&lt;/p></description></item><item><title>Hugo建站</title><link>https://meirgoo.net/docs/tech/hugo-website/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://meirgoo.net/docs/tech/hugo-website/</guid><description>&lt;h1 id="在网上圈出一亩三分地-你最靠谱的静态网站上线指南">
+ 在网上圈出一亩三分地-你最靠谱的静态网站上线指南
+ &lt;a class="anchor" href="#%e5%9c%a8%e7%bd%91%e4%b8%8a%e5%9c%88%e5%87%ba%e4%b8%80%e4%ba%a9%e4%b8%89%e5%88%86%e5%9c%b0-%e4%bd%a0%e6%9c%80%e9%9d%a0%e8%b0%b1%e7%9a%84%e9%9d%99%e6%80%81%e7%bd%91%e7%ab%99%e4%b8%8a%e7%ba%bf%e6%8c%87%e5%8d%97">#&lt;/a>
 &lt;/h1>
 &lt;h2 id="前言">
  前言
