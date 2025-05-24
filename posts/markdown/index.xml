@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>杂谈 on Meirgoo Site</title>
+    <link>http://localhost:1313/posts/markdown/</link>
+    <description>Recent content in 杂谈 on Meirgoo Site</description>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>zh-cn</language>
+    <atom:link href="http://localhost:1313/posts/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的数据在哪里？从一次数据迁移看数据寿命与所有权</title>
+      <link>http://localhost:1313/posts/markdown/wad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/markdown/wad/</guid>
+      <description>由一次网站迁移记录自己关于数据的寿命以及所有权的思考，在现代互联中，我们应该如果考虑自己的数据安全以及对应的隐私问题，我们应该如何选择自己的数据保存方式。</description>
+    </item>
+  </channel>
+</rss>

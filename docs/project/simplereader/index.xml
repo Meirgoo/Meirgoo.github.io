@@ -1,14 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>简阅 on Meirgoo Site</title><link>https://meirgoo.net/docs/project/simplereader/</link><description>Recent content in 简阅 on Meirgoo Site</description><generator>Hugo</generator><language>zh-cn</language><atom:link href="https://meirgoo.net/docs/project/simplereader/index.xml" rel="self" type="application/rss+xml"/><item><title>Privacy Policy</title><link>https://meirgoo.net/docs/project/simplereader/privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://meirgoo.net/docs/project/simplereader/privacy-policy/</guid><description>&lt;h1 id="privacy-policy">
- Privacy Policy
- &lt;a class="anchor" href="#privacy-policy">#&lt;/a>
-&lt;/h1>
-&lt;p>&lt;strong>Privacy Policy&lt;/strong>&lt;/p>
-&lt;p>This privacy policy applies to the Simple Reader app (hereby referred to as &amp;ldquo;Application&amp;rdquo;) for mobile devices that was created by Meirgoo (hereby referred to as &amp;ldquo;Service Provider&amp;rdquo;) as a Commercial service. This service is intended for use &amp;ldquo;AS IS&amp;rdquo;.&lt;/p>
-&lt;p>&lt;strong>What information does the Application obtain and how is it used?&lt;/strong>&lt;/p>
-&lt;p>The Application does not obtain any information when you download and use it. Registration is not required to use the Application.&lt;/p></description></item><item><title>Terms of Use</title><link>https://meirgoo.net/docs/project/simplereader/terms-of-use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://meirgoo.net/docs/project/simplereader/terms-of-use/</guid><description>&lt;h1 id="terms-of-use">
- Terms of Use
- &lt;a class="anchor" href="#terms-of-use">#&lt;/a>
-&lt;/h1>
-&lt;p>&lt;strong>Terms &amp;amp; Conditions&lt;/strong>&lt;/p>
-&lt;p>These terms and conditions apply to the Simple Reader app (hereby referred to as &amp;ldquo;Application&amp;rdquo;) for mobile devices that was created by Meirgoo (hereby referred to as &amp;ldquo;Service Provider&amp;rdquo;) as a Commercial service.&lt;/p>
-&lt;p>Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application. Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>简阅 on Meirgoo Site</title>
+    <link>http://localhost:1313/docs/project/simplereader/</link>
+    <description>Recent content in 简阅 on Meirgoo Site</description>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>zh-cn</language>
+    <atom:link href="http://localhost:1313/docs/project/simplereader/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/docs/project/simplereader/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/project/simplereader/privacy-policy/</guid>
+      <description>&lt;h1 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Privacy Policy&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This privacy policy applies to the Simple Reader app (hereby referred to as &amp;ldquo;Application&amp;rdquo;) for mobile devices that was created by Meirgoo (hereby referred to as &amp;ldquo;Service Provider&amp;rdquo;) as a Commercial service. This service is intended for use &amp;ldquo;AS IS&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What information does the Application obtain and how is it used?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Application does not obtain any information when you download and use it. Registration is not required to use the Application.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Terms of Use</title>
+      <link>http://localhost:1313/docs/project/simplereader/terms-of-use/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/project/simplereader/terms-of-use/</guid>
+      <description>&lt;h1 id=&#34;terms-of-use&#34;&gt;Terms of Use&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Terms &amp;amp; Conditions&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;These terms and conditions apply to the Simple Reader app (hereby referred to as &amp;ldquo;Application&amp;rdquo;) for mobile devices that was created by Meirgoo (hereby referred to as &amp;ldquo;Service Provider&amp;rdquo;) as a Commercial service.&lt;/p&gt;
+&lt;p&gt;Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application. Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

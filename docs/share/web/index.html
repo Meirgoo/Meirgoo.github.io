@@ -1,5 +1,219 @@
-<!doctype html><html lang=zh-cn dir=ltr><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#343a40"><meta name=color-scheme content="light dark"><meta property="og:url" content="https://meirgoo.net/docs/share/web/"><meta property="og:site_name" content="Meirgoo Site"><meta property="og:title" content="Hugo建站指南"><meta property="og:description" content="Meirgoo的个人博客，资源，技术，杂谈，分享"><meta property="og:locale" content="zh_cn"><meta property="og:type" content="website"><title>Hugo建站指南 | Meirgoo Site</title><link rel=icon href=/favicon.png><link rel=manifest href=/manifest.json><link rel=canonical href=https://meirgoo.net/docs/share/web/><link rel=stylesheet href=/book.min.06d84d78247e572aefdb64432e406e1f78a9ead4ef25479efa82ff79bd6c0873.css integrity="sha256-BthNeCR+Vyrv22RDLkBuH3ip6tTvJUee+oL/eb1sCHM=" crossorigin=anonymous><script defer src=/fuse.min.js></script><script defer src=/en.search.min.3d304ee03c23a2a7d5969e8f07551119643c831fdb42db494fbca7df672896cf.js integrity="sha256-PTBO4DwjoqfVlp6PB1URGWQ8gx/bQttJT7yn32cols8=" crossorigin=anonymous></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-EFHJN3GSM8"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-EFHJN3GSM8")}</script><link rel=alternate type=application/rss+xml href=https://meirgoo.net/docs/share/web/index.xml title="Meirgoo Site"></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
-<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><span>Meirgoo Site</span></a></h2><div class="book-search hidden"><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul><li class=book-section-flat><input type=checkbox id=section-e88311e3b6e3db59e2d7e806c1d28c35 class=toggle>
-<label for=section-e88311e3b6e3db59e2d7e806c1d28c35 class="flex justify-between"><a role=button>收藏夹</a></label><ul><li><a href=/docs/collection/website/>网站</a></li></ul></li><li class=book-section-flat><span>技术分享</span><ul><li><a href=/docs/share/adobe/>Adobe安装</a></li><li><input type=checkbox id=section-75d463f859556f62c81210b72481ffb7 class=toggle checked>
-<label for=section-75d463f859556f62c81210b72481ffb7 class="flex justify-between"><a role=button class=active>Hugo建站指南</a></label><ul><li><a href=/docs/share/web/hugo-website/>零基础构建个人博客：Hugo搭建和Github部署</a></li><li><a href=/docs/share/web/hugo-book/>Hugo Book主题</a></li></ul></li></ul></li><li class=book-section-flat><input type=checkbox id=section-41f3f559152a9264a369a897f721777e class=toggle>
-<label for=section-41f3f559152a9264a369a897f721777e class="flex justify-between"><a role=button>杂谈</a></label><ul><li><a href=/docs/markdown/wad/>我的数据在哪里？从一次数据迁移看数据寿命与所有权</a></li></ul></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/svg/menu.svg class=book-icon alt=Menu></label><h3>Hugo建站指南</h3><label for=toc-control><img src=/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents></nav></aside></header><article class="markdown book-article"></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents></nav></div></aside></main></body></html>
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Hugo建站指南 | Meirgoo Site</title>
+<meta name="keywords" content="">
+<meta name="description" content="Hugo建站指南 - Meirgoo Site">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/docs/share/web/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.ae3d277e69647c027e65dd7c785748f912a9be2d37da0061b9ff15a5d7fafb7b.css" integrity="sha256-rj0nfmlkfAJ&#43;Zd18eFdI&#43;RKpvi032gBhuf8Vpdf6&#43;3s=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/docs/share/web/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/docs/share/web/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Meirgoo Site (Alt + H)">Meirgoo Site</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Hugo建站指南
+  </h1>
+</header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">零基础构建个人博客：Hugo搭建和Github部署
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>零基础构建个人博客：Hugo搭建和Github部署 前言 个人建站的热潮还是在零几年，那时候互联网就像一片无限大的荒原，也有一批站长在那个时间发家致富。可以确定的是，现在已经不是当时那个遍地都是机会的时代，但互联网依然是那片几乎无限大的土地，大到任何人都可以在中间几乎零成本的圈出自己的一块地。本文会教你如何划出自己的一块地皮。
+准备 如你所见这个页面就是基于Hugo（雨果）部署在Github Pages的一个静态站点，之后的内容也基于这一点。
+为此你需要准备：
+一点点英语和计算机基础。后续的操作大多是英语界面，也需要使用命令行操作，完全不会也不是不行，靠网页翻译和说明硬啃吧，难度肯定会更大。
+windows10或者windows11操作系统。
+linux本身命令行操作会更简单一些，并且可以默认linux用户基础更好，资料更全，考虑到中文用户大多应该是windows系统，故以windows为主
+可以访问Github的网络环境。Github是全球最大的开源社区，这里使用Github提供的Pages功能，该功能支持为项目部署静态网站（免费，但有一定使用限制），由于Github在国内存在DNS污染，因此访问Github对网络提供商，地点等等有一定要求，可以访问github.com测试，如果无法访问需要自行查找解决方案。
+可以访问时自行使用邮箱注册账户。
+步骤 打开系统的Microsoft Store，即微软商店，在windows10和windows11内置，如果被卸载，可参考我的脚本列表中恢复命令。
+安装/更新 App Installer，该软件是微软官方的包管理器，安装该软件后可以用命令行安装软件，省去大量操作步骤。
+以管理员模式运行powershell，使用win（徽标键，标准键盘空格左边第二个）&#43;R打开运行，输入powershell，之后按ctrl&#43;shift&#43;enter（同时按住ctrl和shift同时点一下回车），如果弹出授权，同意即可，当能看到一个蓝色窗口时，欢迎来到命令行的世界。
+命令行的操作是输入指令按回车执行，后续一切该操作不做说明。运行
+winget 如果能看到一串列表，那么说明包管理器正常。
+换源，winget的内置源或许并不适合国内网络环境的访问，这里使用的是中科大的源，有其他的源可以把ustc更换为任意名称，链接更换为源地址。
+winget source add ustc https://mirrors.ustc.edu.cn/winget-source 想要检查有什么源可以使用：
+winget source list 想要移除源可以使用（将星号以及星号之间的内容更换为源列表的名称）：
+winget source remove *winget* 想恢复默认源可以：
+winget source reset --force 安装hugo，可以使用以下指令检查是否可以从源搜索到软件：
+winget search hugo 如果无法搜索到软件需要再检查是否成功配置源以及网络连接。之后安装Hugo。如果顺利搜索，可以看到这里有Hugo的三个不同版本，分别是标准版，扩展版和开发版，开发版并不适合一般用户使用，部分主题需要使用扩展版，因此一步到位直接安装扩展版Hugo。
+winget install Hugo.Hugo.Extended 同时再顺便安装一个git，等下要用。
+winget install git.git 关闭powershell，开启一个新的无管理员权限的powershell，这里务必使用无管理员权限的powershell运行，因为两者默认路径是不同的，第5步中由于换源，路径在系统目录下，现在需要在用户目录下进行下一步，因此直接新建无管理员权限的powershell最直接。使用指令：
+hugo 如果看到如下输出表示软件安装无误:
+Total in 1 msError: Unable to locate config file or config directory. Perhaps you need to create a new site.Run `hugo help new` for details. 确认建站位置，你的个人网站是需要一个文件夹用来存放的，在上一步中刚开启的powershell默认执行路径是用户文件夹，，即“C:\Users\My\用户名”，也是打开文件管理器看到左侧一串桌面等文件夹的上一级，对于没有学过命令行操作的用户来说，可以使用这样几个指令在命令行中操作文件夹。
+...</p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to 零基础构建个人博客：Hugo搭建和Github部署" href="http://localhost:1313/docs/share/web/hugo-website/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Meirgoo Site</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
