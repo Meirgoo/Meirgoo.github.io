@@ -62,7 +62,79 @@
 &lt;/h1>
 &lt;p>&lt;strong>Terms &amp;amp; Conditions&lt;/strong>&lt;/p>
 &lt;p>These terms and conditions apply to the Simple Reader app (hereby referred to as &amp;ldquo;Application&amp;rdquo;) for mobile devices that was created by Meirgoo (hereby referred to as &amp;ldquo;Service Provider&amp;rdquo;) as a Commercial service.&lt;/p>
-&lt;p>Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application. Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.&lt;/p></description></item><item><title>网站</title><link>https://meirgoo.net/docs/collection/website/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://meirgoo.net/docs/collection/website/</guid><description>&lt;h1 id="website-collect">
+&lt;p>Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application. Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.&lt;/p></description></item><item><title>我的数据在哪里？从一次数据迁移看数据寿命与所有权</title><link>https://meirgoo.net/docs/markdown/wad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://meirgoo.net/docs/markdown/wad/</guid><description>&lt;h1 id="我的数据在哪里从一次站点迁移看数据寿命与所有权">
+ 我的数据在哪里？从一次站点迁移看数据寿命与所有权
+ &lt;a class="anchor" href="#%e6%88%91%e7%9a%84%e6%95%b0%e6%8d%ae%e5%9c%a8%e5%93%aa%e9%87%8c%e4%bb%8e%e4%b8%80%e6%ac%a1%e7%ab%99%e7%82%b9%e8%bf%81%e7%a7%bb%e7%9c%8b%e6%95%b0%e6%8d%ae%e5%af%bf%e5%91%bd%e4%b8%8e%e6%89%80%e6%9c%89%e6%9d%83">#&lt;/a>
+&lt;/h1>
+&lt;h2 id="前言">
+ 前言
+ &lt;a class="anchor" href="#%e5%89%8d%e8%a8%80">#&lt;/a>
+&lt;/h2>
+&lt;p>1993年，id Software为《DOOM》设计的WAD（Where’s All the Data）文件格式开创了游戏模组社区的先河。30多年后，在一次次的内容整理以及尝试寻找更优质的过程中，我又一次的开始思考起这个问题，在现在的互联网中，哪些数据是真的由我所有？我真的知道自己的数据都在哪里吗？我的数据在哪里？&lt;/p>
+&lt;h2 id="现代人的数字生命">
+ 现代人的数字生命
+ &lt;a class="anchor" href="#%e7%8e%b0%e4%bb%a3%e4%ba%ba%e7%9a%84%e6%95%b0%e5%ad%97%e7%94%9f%e5%91%bd">#&lt;/a>
+&lt;/h2>
+&lt;p>很多年前流行一个说法，叫做“地球村”，是指互联网可以把全球各地的人随时随地连接到一起。当我们对这些习以为常之后，这个说法已经很少听说。现在几乎每个人都存在网络中的社交，网络中的购物，夸张的说一切的一切都有一份互联网的版本，在现实生活之外，每个人都有一个互联网的身份，都有一个存活在数据中的“备份”，所有产生的数据构成了这个生命本身。&lt;/p>
+&lt;p>就像我们在日常生活中会谈断舍离一样，这个数字生命并不是所有的部分都有实际意义。没有人会去记录一个平常的日子吃了什么午餐，留下的数据中访问某个页面多久，在某个位置消耗了多少注意力，这些数据对个人来讲同样没有任何价值。在大多数情况下，我们所关注的数据只有很少的并且不可再生的一部分。&lt;/p>
+&lt;p>在收藏数据时，我经常用的一个标准是“可再生”，代表了数据的寿命和可恢复性，例如，如果有人分享了一份非常稀有的资源，并且是以易失方式分享的，那么这份数据就是不可再生的资源，需要及时保存，一旦错过就很难再次获取。&lt;/p>
+&lt;p>类似于热门软件安装包、游戏文件等等类似的公开发行的内容，可以做出一个大胆的推论，这些数据是“半永生”的，首先是有一个稳定的公司或者组织提供内容，其次即使因为某些原因导致内容失效，在保有量足够大的情况下也会有人可以再次提供，相当于保存在一个巨大的P2P网络中，可以视为某种程度上的“永生”。&lt;/p>
+&lt;p>但是类似的保存在公有领域的数据并不适合个人数据，那么个人数据又该如何选择保存方式呢？&lt;/p>
+&lt;h2 id="数据生命线">
+ 数据生命线
+ &lt;a class="anchor" href="#%e6%95%b0%e6%8d%ae%e7%94%9f%e5%91%bd%e7%ba%bf">#&lt;/a>
+&lt;/h2>
+&lt;p>在数据保存领域有一个理论，叫做3-2-1法则，也就是：&lt;/p>
+&lt;ul>
+&lt;li>3份文件，一份原件，两份备份。&lt;/li>
+&lt;li>2种介质，简单说不要存储单一硬件上。&lt;/li>
+&lt;li>1份异地。&lt;/li>
+&lt;/ul>
+&lt;p>看上去很复杂，实际也很复杂，很多家庭并不会配备NAS，手动备份和异地备份都是相当麻烦的事情，当然我也不会轻易尝试这个备份法则的实践，我个人在数据备份和管理上的实践倾向于网络备份，对于那些有稳定服务且不涉及隐私的公司，大部分数据就交给公司直接处理。&lt;/p>
+&lt;p>对于没有这种服务的公司，我会把部分核心数据保存在网盘，我个人常用的网盘是Onedrive，对于少量的极其重要的文本类型的内容，我会直接保存在Github上，我相信作为代码的版本控制网站，在数据备份和永久化保存方面，会比个人完善的多得多，并且版本控制功能也非常适合更新历史记录和增量更新。&lt;/p>
+&lt;p>看上去网络备份是一个非常完善的方案，如果有稳定的公司做服务的话，我相信对于没有专业备份的用户来说，数据寿命会长的多。但由此也衍生出了一个问题，互联网中的数据，到底归谁所有。&lt;/p>
+&lt;h2 id="云端迷城与本地堡垒">
+ 云端迷城与本地堡垒
+ &lt;a class="anchor" href="#%e4%ba%91%e7%ab%af%e8%bf%b7%e5%9f%8e%e4%b8%8e%e6%9c%ac%e5%9c%b0%e5%a0%a1%e5%9e%92">#&lt;/a>
+&lt;/h2>
+&lt;p>三年前被Notion的颜值蛊惑，兴冲冲把日记本搬上云端。但数次在互联网环境不太好，DNS污染严重的地区，我无法获取任何我的个人数据，那时候瞬间悟了：把全部身家托付云端，就像把存折交给海鸥保管——优雅是优雅，就是取钱得看潮汐。&lt;/p>
+&lt;p>先来科普一下Notion这个软件，Notion是国外出品的一款笔记软件，我个人也非常喜欢Notion的简约设计。&lt;/p>
+&lt;p>但是，Notion在我看来最大的一个缺点是，整个服务全部都是云端的。&lt;/p>
+&lt;p>也就是说，如果我在一个网络不好的环境中，或者没有网络的环境中，是不能使用Notion的。虽然现在完全和网络分离的环境比较少，但总归不能排除这种可能，这就意味着，假如我暂离了网络，或者Notion运营方出现了故障，再或者国内特殊的网络环境出现变化，我将找不回我的任何数据，我的所有数据实际上并不在我的手中。&lt;/p>
+&lt;p>在当时，我只写了少量几篇文章，并没有什么价值，但是这种“不稳定”的状态还是促使我换一种解决方案，因此我改用Github Pages的方案搭建起了现在这个博客。虽然没有什么是永恒的，但我相信Github的性质和运行决定了这一组合远比Notion要稳定得多，平常我可以简单的将本地和云端进行同步，即使是在最坏的结果下，我仍然可以在本地保有我所有的数据，有选择，就是Notion所不能带给我的安全感。&lt;/p>
+&lt;p>本地硬盘是贴身日记本。&lt;/p>
+&lt;p>私有仓库像上锁的保险箱。&lt;/p>
+&lt;p>公开部署则是临街橱窗。&lt;/p>
+&lt;h2 id="数字方舟建造指南">
+ 数字方舟建造指南
+ &lt;a class="anchor" href="#%e6%95%b0%e5%ad%97%e6%96%b9%e8%88%9f%e5%bb%ba%e9%80%a0%e6%8c%87%e5%8d%97">#&lt;/a>
+&lt;/h2>
+&lt;p>理想的存储方案就像寻找三体运动中的稳定解，需在多个维度间找平衡：&lt;/p>
+&lt;p>安全vs便捷：&lt;/p>
+&lt;p>NAS像是自家金库，安全但得操心防潮防火；网盘好比银行保险箱，省心却要看人脸色。我的折中方案是把私密照片存加密硬盘，工作文档放企业云盘，至于猫片？当然要上传到宠物社区接受云撸猫。&lt;/p>
+&lt;p>当下vs未来：&lt;/p>
+&lt;p>用Word写稿时总担心.doc格式有天变成数字甲骨文，现在改投Markdown阵营，仿佛给文字买了终身保险。有次打开2005年的.txt文件，纯文本的质朴反而比花哨的富文本更经得起时间考验。&lt;/p>
+&lt;p>公有vs私有：&lt;/p>
+&lt;p>把游记同步到博客像是往海里扔漂流瓶，某天竟收到南极科考队员的评论；而私密日记用Veracrypt加密，密码强度高得自己都常输错。这种公私分明的存储方式，倒像是给数据世界划出了客厅与卧室。&lt;/p>
+&lt;p>还有一种存储方式是直接把内容放到媒体网站上，也可以视为一种存储，只是允许公开查看，如果愿意接受把发布内容作为一种形式也可以，比如为了记录我的游戏履历，我也会在Bilibili上传我的游戏录像，因为这些数据并不是什么隐私数据，也没有更深层次的内容，公开发布允许任何人查看，并且作为私人的一种存储方式完全可行。&lt;/p>
+&lt;p>纯网络存储方案最大的问题也就在纯网络上，全部数据漂浮在云端同样会带来非常大的限制，比如我之前使用的Notion，在网络不好的情况下就等同于我失去了我的数据，类似的云手机云电脑的概念，看上去都像是一种胡闹。&lt;/p>
+&lt;p>现在无论是手机系统还是打开某个网盘性质的软件，都会弹出各种帮你备份的提示，或者各种请求去访问你的私人数据帮你备份，这种情况下本地数据也会在网盘有同样的一份备份，在换机之后，在各种环境下，基本都不会失去自己的数据，而且成本好像也并不高，但是真的有这么好的事吗？&lt;/p>
+&lt;h2 id="便利性与控制权的永恒博弈">
+ 便利性与控制权的永恒博弈
+ &lt;a class="anchor" href="#%e4%be%bf%e5%88%a9%e6%80%a7%e4%b8%8e%e6%8e%a7%e5%88%b6%e6%9d%83%e7%9a%84%e6%b0%b8%e6%81%92%e5%8d%9a%e5%bc%88">#&lt;/a>
+&lt;/h2>
+&lt;p>当我们讨论云存储时，本质上在探讨一个现代性悖论：你愿不愿意为了便利性放弃隐私。&lt;/p>
+&lt;p>国内网盘的&amp;quot;净网事件&amp;quot;以及百度千金“开盒事件”揭示了一个残酷现实：存储在他人服务器上的数据，本质上是一份数字人质，等于把自己的数字身份交给厂商。百度网盘将用户文件替换为8秒警告视频的操作，堪比数字版的&amp;quot;特洛伊木马&amp;quot;——你以为在运输家具，实则运送着随时可能自毁的定时炸弹。百度千金通过系统直接开盒个人则揭示了这些互联网公司并没有任何工程伦理的道德底线，服务商就是最大的风险本身。&lt;/p>
+&lt;p>现在来讨论一个问题，用户在云端存储的数据属于用户还是数据服务商？这一点显然没有争议，服务商只是“代替”用户“保管”数据，原数据百分百属于用户，但是如果根据法律要求，服务商需要审查用户数据，又该如何对待用户的数据呢？厂商有资格审查用户存储的文件吗？涉及到的隐私问题又该由谁承担？&lt;/p>
+&lt;p>从已有的例子来看，网盘的服务商大多并不遵守对个人隐私权的保护，随意审查删除更换用户的数据，还有些更为现实的例子，例如国内的互联网服务基本都是手机认证实现实名，如果更换手机号后其他人买到了这个手机号，没有更换绑定手机号的账户所有数据等于完全泄露。&lt;/p>
+&lt;p>并且云盘也是一个相当强力的垄断渠道，设想一个场景，你在某手机厂商自带的云存储中存了几十GB的私人数据，那么下次换手机你会换其他厂商的吗？当然是可以换，但是显然会出现大量的数据迁移成本，如果是嫌麻烦的用户，那么就相当于用户绑定了该厂商而丧失了部分选择权。&lt;/p>
+&lt;p>当你的数字记忆被封装在某个品牌云空间时，换机决策就变成了情感勒索：是承受数据迁移的阵痛，还是继续被生态链温柔禁锢？&lt;/p>
+&lt;h2 id="在比特之海抛下锚点">
+ 在比特之海抛下锚点
+ &lt;a class="anchor" href="#%e5%9c%a8%e6%af%94%e7%89%b9%e4%b9%8b%e6%b5%b7%e6%8a%9b%e4%b8%8b%e9%94%9a%e7%82%b9">#&lt;/a>
+&lt;/h2>
+&lt;p>数字资产的价值不在于字节数量，而在于其承载的生命密度。当我们用RAID阵列守护家庭影像，用Git版本控制记录思想轨迹，本质上是在虚拟世界中复刻原始人的篝火仪式——用有序的存储对抗熵增，用可控的存档延展记忆。&lt;/p>
+&lt;p>下次点击&amp;quot;上传&amp;quot;按钮前，不妨自问：如果明天所有云服务同时消失，我的数字存在能否在本地硬盘上完成文明重启？这个问题的答案，就是你在比特海洋中的诺亚方舟。&lt;/p></description></item><item><title>网站</title><link>https://meirgoo.net/docs/collection/website/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://meirgoo.net/docs/collection/website/</guid><description>&lt;h1 id="website-collect">
  website collect
  &lt;a class="anchor" href="#website-collect">#&lt;/a>
 &lt;/h1>
