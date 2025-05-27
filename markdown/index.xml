@@ -9,11 +9,11 @@
     <lastBuildDate>Wed, 21 May 2025 14:39:33 +0800</lastBuildDate>
     <atom:link href="https://meirgoo.net/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>我的数据在哪里？从一次数据迁移看数据寿命与所有权</title>
+      <title>我的数据在哪里？从《DOOM》WAD谈起：反思数字时代的数据寿命、所有权与安全感</title>
       <link>https://meirgoo.net/markdown/wad/</link>
       <pubDate>Wed, 21 May 2025 14:39:33 +0800</pubDate>
       <guid>https://meirgoo.net/markdown/wad/</guid>
-      <description>由一次网站迁移记录自己关于数据的寿命以及所有权的思考，在现代互联中，我们应该如果考虑自己的数据安全以及对应的隐私问题，我们应该如何选择自己的数据保存方式。</description>
+      <description>一次网站迁移引发的对个人数据寿命与所有权的深思。在云服务普及的今天，我们的数据真的安全吗？本文探讨数字时代个人数据所有权、云存储风险、隐私保护，并提供实用的数据保存策略，助你守护宝贵的数字遗产。</description>
     </item>
   </channel>
 </rss>
