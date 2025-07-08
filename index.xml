@@ -4,9 +4,9 @@
     <title>Meirgoo Site</title>
     <link>https://meirgoo.net/</link>
     <description>Recent content on Meirgoo Site</description>
-    <generator>Hugo -- 0.147.7</generator>
+    <generator>Hugo -- 0.148.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 04 Jun 2025 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 14:39:33 +0800</lastBuildDate>
     <atom:link href="https://meirgoo.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adobe Creative Cloud官方最新版安装和破解指南</title>
@@ -35,20 +35,6 @@
 &lt;p&gt;&lt;strong&gt;Terms &amp;amp; Conditions&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;These terms and conditions apply to the Simple Reader app (hereby referred to as &amp;ldquo;Application&amp;rdquo;) for mobile devices that was created by Meirgoo (hereby referred to as &amp;ldquo;Service Provider&amp;rdquo;) as a Commercial service.&lt;/p&gt;
 &lt;p&gt;Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application. Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>从AI聊起，谈谈创作的土壤</title>
-      <link>https://meirgoo.net/markdown/ai-content-infused/</link>
-      <pubDate>Wed, 04 Jun 2025 12:00:00 +0800</pubDate>
-      <guid>https://meirgoo.net/markdown/ai-content-infused/</guid>
-      <description>看了一篇关于AI入侵互联网的内容，稍有所感，写下这篇内容，从比较久之前我就开始不看好创作的大环境，如今倒是不怎么在意AI带来的进一步冲击，与其说讨论，或许改成“我见”更加合适。</description>
-    </item>
-    <item>
-      <title>我的数据在哪里？从《DOOM》WAD谈起：反思数字时代的数据寿命、所有权与安全感</title>
-      <link>https://meirgoo.net/markdown/wad/</link>
-      <pubDate>Wed, 21 May 2025 14:39:33 +0800</pubDate>
-      <guid>https://meirgoo.net/markdown/wad/</guid>
-      <description>一次网站迁移引发的对个人数据寿命与所有权的深思。在云服务普及的今天，我们的数据真的安全吗？本文探讨数字时代个人数据所有权、云存储风险、隐私保护，并提供实用的数据保存策略，助你守护宝贵的数字遗产。</description>
     </item>
     <item>
       <title>零基础构建个人博客：Hugo搭建和GitHub Pages部署完全指南</title>
