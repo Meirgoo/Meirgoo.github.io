@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meirgoo's Site</title><link>https://meirgoo.com/</link><description>Recent content on Meirgoo's Site</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 23 Nov 2025 20:00:00 +0800</lastBuildDate><atom:link href="https://meirgoo.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Adobe Creative Cloud官方最新版安装和破解指南</title><link>https://meirgoo.com/docs/software_install/adobe/</link><pubDate>Tue, 04 Nov 2025 22:53:45 +0800</pubDate><guid>https://meirgoo.com/docs/software_install/adobe/</guid><description>&lt;p&gt;虽然像Adobe、Microsoft等公司抢占市场的策略是不追究个人破解行为，更多的大团队也没听说因为这个被追责怎样的，但总归是该说的要说到。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meirgoo's Site</title><link>https://meirgoo.com/</link><description>Recent content on Meirgoo's Site</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 23 Nov 2025 20:00:00 +0800</lastBuildDate><atom:link href="https://meirgoo.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Adobe Creative Cloud官方最新版安装和破解指南</title><link>https://meirgoo.com/docs/adobe/</link><pubDate>Tue, 04 Nov 2025 22:53:45 +0800</pubDate><guid>https://meirgoo.com/docs/adobe/</guid><description>&lt;p&gt;虽然像Adobe、Microsoft等公司抢占市场的策略是不追究个人破解行为，更多的大团队也没听说因为这个被追责怎样的，但总归是该说的要说到。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;重要免责声明：&lt;/strong&gt; 本文介绍了使用第三方工具绕过 Adobe 官方软件许可的方法。从事此类活动具有重大风险：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;法律后果：&lt;/strong&gt; 使用未经许可或 “破解 ”的软件在大多数国家都是非法的，可能导致处罚。&lt;/li&gt;
@@ -60,7 +60,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;获取并准备第三方激活工具&lt;/strong&gt;：&lt;/p&gt;</description></item><item><title>零基础构建个人博客：Hugo搭建和GitHub Pages部署完全指南</title><link>https://meirgoo.com/docs/website_builder/hugo-website/</link><pubDate>Tue, 04 Nov 2025 22:53:45 +0800</pubDate><guid>https://meirgoo.com/docs/website_builder/hugo-website/</guid><description>&lt;h2 id="前言在互联网上拥有自己的一块地"&gt;
+&lt;p&gt;&lt;strong&gt;获取并准备第三方激活工具&lt;/strong&gt;：&lt;/p&gt;</description></item><item><title>零基础构建个人博客：Hugo搭建和GitHub Pages部署完全指南</title><link>https://meirgoo.com/docs/hugo-website/</link><pubDate>Tue, 04 Nov 2025 22:53:45 +0800</pubDate><guid>https://meirgoo.com/docs/hugo-website/</guid><description>&lt;h2 id="前言在互联网上拥有自己的一块地"&gt;
  前言：在互联网上拥有自己的一块地
  &lt;a class="heading-link" href="#%e5%89%8d%e8%a8%80%e5%9c%a8%e4%ba%92%e8%81%94%e7%bd%91%e4%b8%8a%e6%8b%a5%e6%9c%89%e8%87%aa%e5%b7%b1%e7%9a%84%e4%b8%80%e5%9d%97%e5%9c%b0"&gt;
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
