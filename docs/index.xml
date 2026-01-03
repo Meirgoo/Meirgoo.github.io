@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on Meirgoo's Site</title><link>https://meirgoo.com/docs/</link><description>Recent content in Docs on Meirgoo's Site</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 23 Nov 2025 20:00:00 +0800</lastBuildDate><atom:link href="https://meirgoo.com/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Adobe Creative Cloud官方最新版安装和破解指南</title><link>https://meirgoo.com/docs/adobe/</link><pubDate>Tue, 04 Nov 2025 22:53:45 +0800</pubDate><guid>https://meirgoo.com/docs/adobe/</guid><description>&lt;p&gt;虽然像Adobe、Microsoft等公司抢占市场的策略是不追究个人破解行为，更多的大团队也没听说因为这个被追责怎样的，但总归是该说的要说到。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on Meirgoo's Site</title><link>https://meirgoo.com/docs/</link><description>Recent content in Docs on Meirgoo's Site</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 03 Jan 2026 12:00:00 +0800</lastBuildDate><atom:link href="https://meirgoo.com/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Adobe Creative Cloud官方最新版安装和破解指南</title><link>https://meirgoo.com/docs/adobe/</link><pubDate>Tue, 04 Nov 2025 22:53:45 +0800</pubDate><guid>https://meirgoo.com/docs/adobe/</guid><description>&lt;p&gt;虽然像Adobe、Microsoft等公司抢占市场的策略是不追究个人破解行为，更多的大团队也没听说因为这个被追责怎样的，但总归是该说的要说到。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;重要免责声明：&lt;/strong&gt; 本文介绍了使用第三方工具绕过 Adobe 官方软件许可的方法。从事此类活动具有重大风险：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;法律后果：&lt;/strong&gt; 使用未经许可或 “破解 ”的软件在大多数国家都是非法的，可能导致处罚。&lt;/li&gt;
@@ -123,7 +123,74 @@
 &lt;p&gt;&lt;strong&gt;验证 winget 包管理器&lt;/strong&gt;：
 在PowerShell中输入以下命令并按回车执行（后续命令行操作均为此方式，不再赘述）：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;winget
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果看到一长串帮助信息列表，说明winget已正常工作。&lt;/p&gt;</description></item><item><title>先按解除锁定再按热水</title><link>https://meirgoo.com/docs/hvvod/</link><pubDate>Sun, 23 Nov 2025 20:00:00 +0800</pubDate><guid>https://meirgoo.com/docs/hvvod/</guid><description>&lt;p&gt;华为，一家争议很大的公司，从各种意义上说。&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果看到一长串帮助信息列表，说明winget已正常工作。&lt;/p&gt;</description></item><item><title>2025年度总结</title><link>https://meirgoo.com/docs/2025summary/</link><pubDate>Sat, 03 Jan 2026 12:00:00 +0800</pubDate><guid>https://meirgoo.com/docs/2025summary/</guid><description>&lt;h1 id="meirgoo的2025总结"&gt;
+ Meirgoo的2025总结
+ &lt;a class="heading-link" href="#meirgoo%e7%9a%842025%e6%80%bb%e7%bb%93"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;又是杂鱼的一年，明天就要上班了，今天把年度总结发出来，总体来看今年干了这么几件大事：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;个人独立项目上架Google Play&lt;/li&gt;
+&lt;li&gt;找了个班上&lt;/li&gt;
+&lt;li&gt;Steam清空愿望单&lt;/li&gt;
+&lt;li&gt;思考人生&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="个人独立项目上架google-play"&gt;
+ 个人独立项目上架Google Play
+ &lt;a class="heading-link" href="#%e4%b8%aa%e4%ba%ba%e7%8b%ac%e7%ab%8b%e9%a1%b9%e7%9b%ae%e4%b8%8a%e6%9e%b6google-play"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;认真来讲这个其实没什么好说的，今年二月份无业在家的时候就想啊，下一份工作如果跳回IT的话，出身不对口，没有相关工作经历应该怎么入行，应该用什么方法去证明自己的能力，那么答案其实是显而易见的，搞一个个人项目嘛，琢磨琢磨，一合计，搞一个安卓端的Epub阅读器吧，正好自己也有相关需求，之前用的不顺手，市面上也缺少一个确实足够满意的，那就不如自己搓一个，从另一个角度来说，一个真正属于自己的项目，也可以是一个走向自由职业的良好起点，这一点可以放在第四点说。&lt;/p&gt;
+&lt;p&gt;总之就是一通折腾，七月份的时候，我的项目上架了Google Play，名字叫做Simple Reader，大约9月份的时候可以被公共搜索到，目前日活有个位数，嗯，个位数。&lt;/p&gt;
+&lt;p&gt;不过倒也不重要，因为确实有很多东西没有准备好，例如功能不完善，优化不行，耗电高，等等一系列问题，就好像一台上世纪的破旧老爷车一样，叮铃哐啷的好赖是跑起来了，希望在26年能有机会重构一下，优化个差不多，用户日活能上个三位数吧，四位数暂时是不敢想了。&lt;/p&gt;
+&lt;p&gt;不过单说应用表现也不完全准确，毕竟这个应用一开始也有一部分作为找工作跳板的目的，属于一个多个目标混合的产物，在这个过程中学到的实际开发和上架经验还是蛮珍贵的，至少以后可以大言不惭的说，我是个项目经理，有一定实战产品经验。&lt;/p&gt;
+&lt;h2 id="找个班上"&gt;
+ 找个班上
+ &lt;a class="heading-link" href="#%e6%89%be%e4%b8%aa%e7%8f%ad%e4%b8%8a"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;有一点是显而易见的，大概不会有正常人喜欢上班。但是这个班还是得上，因为总是要吃饭的，在上一节中我说自己有了个项目，也可以进一步说有了相应的商业化构思，但是在落地之前全都是白扯，在真正搞定一切之前，还是得先找个班上。&lt;/p&gt;
+&lt;p&gt;然后就来给华子干OD了。&lt;/p&gt;
+&lt;p&gt;在我之前的一篇文章中应该吐槽了这个用工制度很多，从九月底干到现在也有三个月了，我不知道什么时候走人，可能是明天，也可能半年一年的，这个事情就很难说，因为我不知道什么时候环境突然恶化一下到我不想在这里待了。&lt;/p&gt;
+&lt;p&gt;仅以今年来说，整个就业市场真是一片欣欣向荣啊，韭菜一茬接一茬，经济下行就是这个样子，什么妖魔鬼怪的招聘都来了，华为的外包虽然走到哪都是槽点，但怎么也是个门槛明确，待遇凑活的公司，有能力来苟一段未尝不可。&lt;/p&gt;
+&lt;p&gt;只是千万不要带着学技术的心态来，外包终究是外包，不是自己人，总有一天会走的。&lt;/p&gt;
+&lt;h2 id="steam清空愿望单"&gt;
+ Steam清空愿望单
+ &lt;a class="heading-link" href="#steam%e6%b8%85%e7%a9%ba%e6%84%bf%e6%9c%9b%e5%8d%95"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;我个人爱好就是书、游、乱七八糟的杂学知识，游戏在我这属于占比相当高的一块，也在All in游戏行业后得到了一个游戏履历不太够的评价，就很难评，只能说玩游戏和做游戏终究是不一样的，25年也是一个独游井喷的年份，如果有时间有能力的话可以把个人乱七八糟的想法汇总一下搞搞独游，也算是留的一条路。&lt;/p&gt;
+&lt;p&gt;如果说今年游戏履历有什么值得谈的，还没有，好像推了很多东西，但好像推完的并不多，不如说稍微重量级的就是清空了愿望单，也是源自于之前的工作给的高工资，四五千上下吧，除了预购阶段和不完善的EA阶段的游戏直接清空愿望单，意料之外的没有出现索然无味或者贤者模式，反倒在这之后肝了不少，一个月推掉两个游戏，这个推进速度对于在狼性公司上班的上班狗，下班还有自己要学的东西的的人来说其实是很快很快了。&lt;/p&gt;
+&lt;h2 id="思考人生"&gt;
+ 思考人生
+ &lt;a class="heading-link" href="#%e6%80%9d%e8%80%83%e4%ba%ba%e7%94%9f"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;其实今年上半年有几分被生活推着走的意思，做项目给找工作积累筹码，投简历面试等等等，入职后当了个苦逼的上班狗，临近年底，离职的人多了，任务多了，水温升高了，刺激的我一激灵，时值年底，不如好好的做一个反思。&lt;/p&gt;
+&lt;p&gt;哲学至高的三大问，我是谁，我从哪来，我要到哪去。&lt;/p&gt;
+&lt;p&gt;前两个问题并没有什么可讨论的，过去已成往事，不会因为任何事情改变，也没有我的太多选择空间，我也始终觉得我现在其实是一个自我认知比较稳固的现状，起码不会被外部环境轻易同化掉，那前两个问题可以回答为，我是我，从一个不完全由我选择的地方来。&lt;/p&gt;
+&lt;p&gt;那么问题就剩下了，我要到哪去。&lt;/p&gt;
+&lt;p&gt;我并不是一个物欲很高的人，钱和权吸引力并不大，够用就好。相比这些我更希望看到很多我没看过的东西，可以是我不知道的知识，可以是我没看过的景色，我希望可以尽力去扩宽知识和认知的一个边界。其次我想做些自己喜欢的事情，不必为了碎银几两做些不想做的事情。最后我不希望把未来的可能性放到一个具体的公司身上，这并不是一个稳固的选择，好像自己的房子建立在一个中空的地基上，这很不好。&lt;/p&gt;
+&lt;p&gt;那其实这些汇总一下，一个大致的发展方向就很清晰了，我想去试试自由职业，去探索，去旅居，而不必囿于某一个具体的地方，具体的公司。但这条路太难走了，在真正有收入落地之前都是一句空谈，这会是一个很长很远的目标。&lt;/p&gt;
+&lt;h1 id="总结"&gt;
+ 总结
+ &lt;a class="heading-link" href="#%e6%80%bb%e7%bb%93"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;2025实在难谈从从容容，希望2026可以游刃有余吧，祝好！&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://images.meirgoo.com/2026/2026start.jpg" alt="Go To 2026" title="好的，2026，我们出发了"&gt;&lt;/p&gt;</description></item><item><title>先按解除锁定再按热水</title><link>https://meirgoo.com/docs/hvvod/</link><pubDate>Sun, 23 Nov 2025 20:00:00 +0800</pubDate><guid>https://meirgoo.com/docs/hvvod/</guid><description>&lt;p&gt;华为，一家争议很大的公司，从各种意义上说。&lt;/p&gt;
 &lt;p&gt;本文没研究配图，有点干。&lt;/p&gt;
 &lt;h2 id="华为华为"&gt;
  华为，华为
