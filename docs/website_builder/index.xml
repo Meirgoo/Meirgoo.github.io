@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>网站搭建 on Meirgoo's Site</title><link>https://meirgoo.com/docs/website_builder/</link><description>Recent content in 网站搭建 on Meirgoo's Site</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 04 Nov 2025 22:53:45 +0800</lastBuildDate><atom:link href="https://meirgoo.com/docs/website_builder/index.xml" rel="self" type="application/rss+xml"/><item><title>零基础构建个人博客：Hugo搭建和GitHub Pages部署完全指南</title><link>https://meirgoo.com/docs/website_builder/hugo-website/</link><pubDate>Tue, 04 Nov 2025 22:53:45 +0800</pubDate><guid>https://meirgoo.com/docs/website_builder/hugo-website/</guid><description>&lt;h2 id="前言在互联网上拥有自己的一块地"&gt;
+ 前言：在互联网上拥有自己的一块地
+ &lt;a class="heading-link" href="#%e5%89%8d%e8%a8%80%e5%9c%a8%e4%ba%92%e8%81%94%e7%bd%91%e4%b8%8a%e6%8b%a5%e6%9c%89%e8%87%aa%e5%b7%b1%e7%9a%84%e4%b8%80%e5%9d%97%e5%9c%b0"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;个人建站的热潮还是在零几年，那时候互联网就像一片无限大的荒原，也有一批站长在那个时间发家致富。可以确定的是，现在已经不是当时那个遍地都是机会的时代，但互联网依然是那片几乎无限大的土地，大到任何人都可以在中间几乎零成本的圈出自己的一块地。本文将手把手教你，如何在数字世界中划出并耕耘你的“一亩三分地”。&lt;/p&gt;
+&lt;h3 id="准备工作"&gt;
+ 准备工作
+ &lt;a class="heading-link" href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;如你所见这个页面就是基于Hugo（雨果）部署在Github Pages的一个静态站点。接下来的教程将以此为蓝本。在开始之前，你需要准备：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;一定的英语和计算机基础&lt;/strong&gt;：后续操作多为英文界面，且需使用命令行。有基础会更顺畅，但零基础用户也可借助翻译工具和详细指引尝试。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Windows 10 或 Windows 11 操作系统&lt;/strong&gt;：Linux系统命令行操作更为便捷，且相关资源丰富。但考虑到多数中文用户使用Windows，本教程将以Windows环境为主。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;可顺畅访问GitHub的网络环境&lt;/strong&gt;：GitHub是全球最大的开源社区，将使用其提供的GitHub Pages功能免费部署静态网站（有一定使用限制）。由于Github在国内存在DNS污染，因此可能存在访问不稳定的情况，访问Github对网络提供商，地点等等有一定要求，请先测试能否正常访问 &lt;code&gt;github.com&lt;/code&gt;。若无法访问，需自行寻找解决方案。访问通畅后，请使用邮箱注册一个GitHub账户。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="详细步骤从零到一搭建你的博客"&gt;
+ 详细步骤：从零到一搭建你的博客
+ &lt;a class="heading-link" href="#%e8%af%a6%e7%bb%86%e6%ad%a5%e9%aa%a4%e4%bb%8e%e9%9b%b6%e5%88%b0%e4%b8%80%e6%90%ad%e5%bb%ba%e4%bd%a0%e7%9a%84%e5%8d%9a%e5%ae%a2"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="第一部分本地环境搭建与hugo安装"&gt;
+ 第一部分：本地环境搭建与Hugo安装
+ &lt;a class="heading-link" href="#%e7%ac%ac%e4%b8%80%e9%83%a8%e5%88%86%e6%9c%ac%e5%9c%b0%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba%e4%b8%8ehugo%e5%ae%89%e8%a3%85"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;打开 Microsoft Store&lt;/strong&gt;：
+在Windows 10/11系统中，找到并打开内置的“Microsoft Store”。如果曾被卸载，可查找相关脚本恢复。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;安装/更新 App Installer&lt;/strong&gt;：
+在Microsoft Store中搜索并安装/更新 &amp;ldquo;App Installer&amp;rdquo;。这是微软官方的包管理器（winget），安装后可通过命令行高效安装软件。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;以管理员模式运行 PowerShell&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;按下 &lt;code&gt;Win&lt;/code&gt; 键（键盘左下角Ctrl和Alt之间的徽标键） + &lt;code&gt;R&lt;/code&gt; 打开“运行”对话框。&lt;/li&gt;
+&lt;li&gt;输入 &lt;code&gt;powershell&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;同时按下 &lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;Shift&lt;/code&gt; + &lt;code&gt;Enter&lt;/code&gt; 以管理员身份运行。若有授权弹窗，请选择“是”。&lt;/li&gt;
+&lt;li&gt;看到蓝色窗口，即表示成功进入PowerShell命令行环境。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;验证 winget 包管理器&lt;/strong&gt;：
+在PowerShell中输入以下命令并按回车执行（后续命令行操作均为此方式，不再赘述）：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;winget
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果看到一长串帮助信息列表，说明winget已正常工作。&lt;/p&gt;</description></item></channel></rss>
