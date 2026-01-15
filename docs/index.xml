@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on Meirgoo's Site</title><link>https://meirgoo.com/docs/</link><description>Recent content in Docs on Meirgoo's Site</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 03 Jan 2026 12:00:00 +0800</lastBuildDate><atom:link href="https://meirgoo.com/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Adobe Creative Cloud官方最新版安装和破解指南</title><link>https://meirgoo.com/docs/adobe/</link><pubDate>Tue, 04 Nov 2025 22:53:45 +0800</pubDate><guid>https://meirgoo.com/docs/adobe/</guid><description>&lt;p&gt;虽然像Adobe、Microsoft等公司抢占市场的策略是不追究个人破解行为，更多的大团队也没听说因为这个被追责怎样的，但总归是该说的要说到。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on Meirgoo's Site</title><link>https://meirgoo.com/docs/</link><description>Recent content in Docs on Meirgoo's Site</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 15 Jan 2026 23:29:58 +0800</lastBuildDate><atom:link href="https://meirgoo.com/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Adobe Creative Cloud官方最新版安装和破解指南</title><link>https://meirgoo.com/docs/adobe/</link><pubDate>Tue, 04 Nov 2025 22:53:45 +0800</pubDate><guid>https://meirgoo.com/docs/adobe/</guid><description>&lt;p&gt;虽然像Adobe、Microsoft等公司抢占市场的策略是不追究个人破解行为，更多的大团队也没听说因为这个被追责怎样的，但总归是该说的要说到。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;重要免责声明：&lt;/strong&gt; 本文介绍了使用第三方工具绕过 Adobe 官方软件许可的方法。从事此类活动具有重大风险：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;法律后果：&lt;/strong&gt; 使用未经许可或 “破解 ”的软件在大多数国家都是非法的，可能导致处罚。&lt;/li&gt;
@@ -123,7 +123,78 @@
 &lt;p&gt;&lt;strong&gt;验证 winget 包管理器&lt;/strong&gt;：
 在PowerShell中输入以下命令并按回车执行（后续命令行操作均为此方式，不再赘述）：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;winget
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果看到一长串帮助信息列表，说明winget已正常工作。&lt;/p&gt;</description></item><item><title>2025年度总结</title><link>https://meirgoo.com/docs/2025summary/</link><pubDate>Sat, 03 Jan 2026 12:00:00 +0800</pubDate><guid>https://meirgoo.com/docs/2025summary/</guid><description>&lt;h1 id="meirgoo的2025总结"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果看到一长串帮助信息列表，说明winget已正常工作。&lt;/p&gt;</description></item><item><title>从今若许闲乘月</title><link>https://meirgoo.com/docs/runandrun/</link><pubDate>Thu, 15 Jan 2026 23:29:58 +0800</pubDate><guid>https://meirgoo.com/docs/runandrun/</guid><description>&lt;p&gt;故事从哪里说起呢，从小x说起吧。&lt;/p&gt;
+&lt;p&gt;不必有什么长篇大论，总结下来八个大字，小x来了，小x走了。这是四个月hvv OD的故事。&lt;/p&gt;
+&lt;h2 id="缘起"&gt;
+ 缘起
+ &lt;a class="heading-link" href="#%e7%bc%98%e8%b5%b7"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;如果现在让我去评级OD这个制度，或者进一步说，评价一下华为的外包制度，我不好说。这个世界上有很多种工作，华为的外包对外人来说，甚至可以说是比较体面的，毕竟国内低收入人群，体力劳动者仍然是大多数，能体面的坐在办公室里，点点键盘，一个月能拿个万把块，虽然加班严重，但也已经是比较出众的工作了。&lt;/p&gt;
+&lt;p&gt;然后就是比较纠结的部分，来到这个工作的人，不乏家境优渥，海外留学，国内9本9硕的人，在这么一个环境和标准下，一个比较体面的外包其实并不值一提，但他好就好在愿意收留心碎考研人，收留失足创业人，收留一堆只知道打游戏的混子（比如我）。&lt;/p&gt;
+&lt;p&gt;而当期待、标准与现实落差过大的时候，就说明这段孽缘走到了尽头。&lt;/p&gt;
+&lt;h2 id="众生相"&gt;
+ 众生相
+ &lt;a class="heading-link" href="#%e4%bc%97%e7%94%9f%e7%9b%b8"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;我个人比较喜欢一句词，“信步鸿蒙之轻，也领苍生之重”，但我从来不敢接后半句，或者直接改成“难领苍生之重”，20年底，我在考研的时候，在政治题大吹全面小康社会的建成，21年底，大年三十，还有骑着破三轮的老头上门讨一块钱买点干粮吃，那时候我觉得我的手是很脏的，苍生太苦太重了，我不敢说能领，或者说没人能，相比之下天地虽大，却可任由我去狂妄的挑战，它们不会在意我，如同我可以蔑视它们一样，就在那里，不来不去。&lt;/p&gt;
+&lt;p&gt;华为内部有个我们自己建起来的英灵殿，小x是我们这一批工号第一个留名的，我当然不会去说他过的苦什么的，算是个富二代家道中落吧，自己学历也相当过关，后面走的不乏美澳留学回来的，不乏富几代的，和我一个小县城自己走出来的，不客气地说我们并不是一个阶层的人，但世事就是那么奇妙，我们来到了同一个地方做同一个外包，把大伙拉到了同一个层次。&lt;/p&gt;
+&lt;p&gt;小x最后走是因为极大的不符合预期，华为觉得身为名校出来应该学习能力和底子足够，但并不是。一个商科出来的能力再足又能会几成计算机呢，最后理所当然的华为觉得应该淘汰掉，不过小x最后是自己提的离职。但是小x并没有立马死掉，大约是十一月提的吧，部门希望可以卡一个人事关系评定，就商量着留到了元旦后走，然后一月四号直接说好聚好散。&lt;/p&gt;
+&lt;p&gt;在我看来真的太正常了，部门利用公司资源给自己个人或者部门内部谋好处再正常不过了，还能落个互相体面，所谓公司不就是这样吗，聚在一起但又各有心思。&lt;/p&gt;
+&lt;p&gt;（当然是我我肯定提前走，你恶心了我那我就要整你，几个钱不如恶心人一下来的痛快，而且真没几个钱。）&lt;/p&gt;
+&lt;p&gt;在此之后，似乎就慢慢的开始走了下坡路，到了十二月开始，差不多是一周走一个，经常出现黑发人送黑发人。&lt;/p&gt;
+&lt;p&gt;如果具体到我们组内，明显的感知就是压力变大，走一两个老人来一个新人，直到今天，我们组已经是一个老人和一伙新人了，还要临时从其他组调外援，然后还是完不成。不过完不成就完不成嘛，完不成也是客观人手不足造成的，反正加班是不可能加的，最多不过一走罢了，这件事没有任何讨论空间，没有免费的奉献。&lt;/p&gt;
+&lt;p&gt;今天经常露面的群友又走了一个，或许我也该准备准备下一站了，或许现在也正在路上，谁知道呢。&lt;/p&gt;
+&lt;h2 id="再议华为"&gt;
+ 再议华为
+ &lt;a class="heading-link" href="#%e5%86%8d%e8%ae%ae%e5%8d%8e%e4%b8%ba"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;回头再来说说华为。&lt;/p&gt;
+&lt;p&gt;我在其他文章中基本只说了华为OD制度的一些东西，结合当前这些众生相的纪实，再来看看华为是一家怎样的公司。&lt;/p&gt;
+&lt;h3 id="华为是一家阶级分明的公司"&gt;
+ 华为是一家阶级分明的公司
+ &lt;a class="heading-link" href="#%e5%8d%8e%e4%b8%ba%e6%98%af%e4%b8%80%e5%ae%b6%e9%98%b6%e7%ba%a7%e5%88%86%e6%98%8e%e7%9a%84%e5%85%ac%e5%8f%b8"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;在上个月的时候，我们组说要组织年会，让600去组织（工号具体含义可以参考其他文章），通知HW和OD参加，然后600不能参加。&lt;/p&gt;
+&lt;p&gt;说实话，我是想不出这么幽默的操作，不让做饭的人上桌吃饭始终是一件非常，不要脸的事情，无论是在哪里，在什么事情上，但是华为的人相当的习以为常，自然而然的一种阶级分明，相当相当的，幽默。&lt;/p&gt;
+&lt;h3 id="华为是一家视加班为义务的公司"&gt;
+ 华为是一家视加班为义务的公司
+ &lt;a class="heading-link" href="#%e5%8d%8e%e4%b8%ba%e6%98%af%e4%b8%80%e5%ae%b6%e8%a7%86%e5%8a%a0%e7%8f%ad%e4%b8%ba%e4%b9%89%e5%8a%a1%e7%9a%84%e5%85%ac%e5%8f%b8"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;某月某日，我也留下了自己的英灵殿记录，因为有人一直想让我义务加班，我一次没有搭理，甚至最近工时越来越短。当然我是无所谓了，有问题可以来找我谈，你就说合同我有没有履约嘛对吧，并不在乎。&lt;/p&gt;
+&lt;p&gt;我并不是什么核心角色，只是一个不值一提的路人，恰巧进来在缺人的时候开始承重，我不觉得我的离职可以打击到谁，我只知道，我离职会释放很多麻烦出去，而麻烦，总归是要有人处理的，这会是一件很麻烦的事情。&lt;/p&gt;
+&lt;p&gt;不过即使后来没有再提，我也不会放弃自己的跳槽计划，有句话说的好，离职的念头就像一点火星，烧起来就再也浇不灭了。&lt;/p&gt;
+&lt;h3 id="华为是一家很搞笑的公司"&gt;
+ 华为是一家很搞笑的公司
+ &lt;a class="heading-link" href="#%e5%8d%8e%e4%b8%ba%e6%98%af%e4%b8%80%e5%ae%b6%e5%be%88%e6%90%9e%e7%ac%91%e7%9a%84%e5%85%ac%e5%8f%b8"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;最近我在公司内部正在等着有人上门找事，有群莫名其妙的SB开始要求这那的，包括但不限于，工位不能有水杯，桌子上方不能有主机，不能有私人物品，电路板必须收起来，有人被找上门的原因是“领导在监控看到觉得不好看”，问题尼玛是，我们是硬件实验室啊。&lt;/p&gt;
+&lt;p&gt;这群SB是怎么干的呢，说不整改就提单取消门禁资格，我给他们放话是，爱提单提单，让领导来找我就行了，然后至今也没等到。我不知道是不是实在提不出单了，因为他们让我整改的都不在实验室标准上，只是自己一拍脑袋搞出来的东西，反正我觉得少了一个找他们麻烦的由头，我很生气，诶不是怎么这么怂啊。&lt;/p&gt;
+&lt;h2 id="结语"&gt;
+ 结语
+ &lt;a class="heading-link" href="#%e7%bb%93%e8%af%ad"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;千万不要有什么大公司的滤镜，很多大公司剖开看真的不过如此，至少，华为不行，如果不是家庭困难，谁愿意来华为打螺丝呢。&lt;/p&gt;</description></item><item><title>2025年度总结</title><link>https://meirgoo.com/docs/2025summary/</link><pubDate>Sat, 03 Jan 2026 12:00:00 +0800</pubDate><guid>https://meirgoo.com/docs/2025summary/</guid><description>&lt;h1 id="meirgoo的2025总结"&gt;
  Meirgoo的2025总结
  &lt;a class="heading-link" href="#meirgoo%e7%9a%842025%e6%80%bb%e7%bb%93"&gt;
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
@@ -145,7 +216,7 @@
  &lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;认真来讲这个其实没什么好说的，今年二月份无业在家的时候就想啊，下一份工作如果跳回IT的话，出身不对口，没有相关工作经历应该怎么入行，应该用什么方法去证明自己的能力，那么答案其实是显而易见的，搞一个个人项目嘛，琢磨琢磨，一合计，搞一个安卓端的Epub阅读器吧，正好自己也有相关需求，之前用的不顺手，市面上也缺少一个确实足够满意的，那就不如自己搓一个，从另一个角度来说，一个真正属于自己的项目，也可以是一个走向自由职业的良好起点，这一点可以放在第四点说。&lt;/p&gt;
-&lt;p&gt;总之就是一通折腾，七月份的时候，我的项目上架了Google Play，名字叫做Simple Reader，大约9月份的时候可以被公共搜索到，目前日活有个位数，嗯，个位数。&lt;/p&gt;
+&lt;p&gt;总之就是一通折腾，七月份的时候，我的项目上架了Google Play，大约9月份的时候可以被公共搜索到，目前日活有个位数，嗯，个位数。&lt;/p&gt;
 &lt;p&gt;不过倒也不重要，因为确实有很多东西没有准备好，例如功能不完善，优化不行，耗电高，等等一系列问题，就好像一台上世纪的破旧老爷车一样，叮铃哐啷的好赖是跑起来了，希望在26年能有机会重构一下，优化个差不多，用户日活能上个三位数吧，四位数暂时是不敢想了。&lt;/p&gt;
 &lt;p&gt;不过单说应用表现也不完全准确，毕竟这个应用一开始也有一部分作为找工作跳板的目的，属于一个多个目标混合的产物，在这个过程中学到的实际开发和上架经验还是蛮珍贵的，至少以后可以大言不惭的说，我是个项目经理，有一定实战产品经验。&lt;/p&gt;
 &lt;h2 id="找个班上"&gt;
