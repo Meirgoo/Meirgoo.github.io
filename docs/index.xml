@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on Meirgoo's Site</title><link>https://meirgoo.com/docs/</link><description>Recent content in Docs on Meirgoo's Site</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 18 Jan 2026 21:45:39 +0800</lastBuildDate><atom:link href="https://meirgoo.com/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Domain</title><link>https://meirgoo.com/docs/domain/</link><pubDate>Sun, 18 Jan 2026 21:45:39 +0800</pubDate><guid>https://meirgoo.com/docs/domain/</guid><description>&lt;h1 id="域名设置给自己的网站一个独一无二的商标"&gt;
- 域名设置：给自己的网站一个独一无二的商标
- &lt;a class="heading-link" href="#%e5%9f%9f%e5%90%8d%e8%ae%be%e7%bd%ae%e7%bb%99%e8%87%aa%e5%b7%b1%e7%9a%84%e7%bd%91%e7%ab%99%e4%b8%80%e4%b8%aa%e7%8b%ac%e4%b8%80%e6%97%a0%e4%ba%8c%e7%9a%84%e5%95%86%e6%a0%87"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h1&gt;
-&lt;p&gt;其实有半年多了），我分享了一下关于如何建立一个简单的个人静态网站并且通过Github Pages部署到公网上。Github的部分特殊仓库名有特殊使用方法，例如将仓库名设置为和用户名相同，可以得到一个可以在个人资料通过该仓库定义的模块，将仓库名设置为“用户名.github.io”，可以得到一个静态的个人主页仓库，也就是在之前的教程中将网页部署到的仓库，之后可以通过“用户名.github.io”访问公开发布的网页。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on Meirgoo's Site</title><link>https://meirgoo.com/docs/</link><description>Recent content in Docs on Meirgoo's Site</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 18 Jan 2026 21:45:39 +0800</lastBuildDate><atom:link href="https://meirgoo.com/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>域名设置：给自己的网站一个独一无二的商标</title><link>https://meirgoo.com/docs/domain/</link><pubDate>Sun, 18 Jan 2026 21:45:39 +0800</pubDate><guid>https://meirgoo.com/docs/domain/</guid><description>&lt;p&gt;在不久前的一篇文章中（其实有半年多了），我分享了一下关于如何建立一个简单的个人静态网站并且通过Github Pages部署到公网上。Github的部分特殊仓库名有特殊使用方法，例如将仓库名设置为和用户名相同，可以得到一个可以在个人资料通过该仓库定义的模块，将仓库名设置为“用户名.github.io”，可以得到一个静态的个人主页仓库，也就是在之前的教程中将网页部署到的仓库，之后可以通过“用户名.github.io”访问公开发布的网页。&lt;/p&gt;
 &lt;p&gt;当然这也有一些问题。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -97,7 +90,17 @@
  &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
  &lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;从计算机网络的底层逻辑来说，TCP/IP协议是核心基石，协议规定，一切设备的位置都是一串数字。&lt;/p&gt;</description></item><item><title>从今若许闲乘月</title><link>https://meirgoo.com/docs/runandrun/</link><pubDate>Thu, 15 Jan 2026 23:29:58 +0800</pubDate><guid>https://meirgoo.com/docs/runandrun/</guid><description>&lt;p&gt;故事从哪里说起呢，从小x说起吧。&lt;/p&gt;
+&lt;p&gt;从计算机网络的底层逻辑来说，TCP/IP协议是核心基石，协议规定，一切设备的位置都是一串数字。&lt;/p&gt;
+&lt;p&gt;那么问题就来了，我怎么知道我要访问的网站是什么，一串数字没有任何标志性。那就是域名解析服务了，也就是DNS，把人类语言意义上的字符解析到计算机意义上的地址。&lt;/p&gt;
+&lt;p&gt;而域名解析，是一个商业行为，有很多家域名服务商，当然并不是说某一个后缀的域名就归属某家服务商的，没有，域名是可以被转移到不同服务商被出售的。&lt;/p&gt;
+&lt;h2 id="不同dns条目有什么不同"&gt;
+ 不同DNS条目有什么不同
+ &lt;a class="heading-link" href="#%e4%b8%8d%e5%90%8cdns%e6%9d%a1%e7%9b%ae%e6%9c%89%e4%bb%80%e4%b9%88%e4%b8%8d%e5%90%8c"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;一般来说，CNAME指的是其他域名，例如之前解析的，如果直接解析为数字IP，添加A记录，如果解析为IPV6地址，添加AAAA记录。&lt;/p&gt;</description></item><item><title>从今若许闲乘月</title><link>https://meirgoo.com/docs/runandrun/</link><pubDate>Thu, 15 Jan 2026 23:29:58 +0800</pubDate><guid>https://meirgoo.com/docs/runandrun/</guid><description>&lt;p&gt;故事从哪里说起呢，从小x说起吧。&lt;/p&gt;
 &lt;p&gt;不必有什么长篇大论，总结下来八个大字，小x来了，小x走了。这是四个月hvv OD的故事。&lt;/p&gt;
 &lt;h2 id="缘起"&gt;
  缘起
