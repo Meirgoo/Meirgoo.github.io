@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meirgoo's Site</title><link>https://meirgoo.com/</link><description>Recent content on Meirgoo's Site</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 18 Jan 2026 21:45:39 +0800</lastBuildDate><atom:link href="https://meirgoo.com/index.xml" rel="self" type="application/rss+xml"/><item><title>域名设置：给自己的网站一个独一无二的商标</title><link>https://meirgoo.com/docs/domain/</link><pubDate>Sun, 18 Jan 2026 21:45:39 +0800</pubDate><guid>https://meirgoo.com/docs/domain/</guid><description>&lt;p&gt;在不久前的一篇文章中（其实有半年多了），我分享了一下关于如何建立一个简单的个人静态网站并且通过Github Pages部署到公网上。Github的部分特殊仓库名有特殊使用方法，例如将仓库名设置为和用户名相同，可以得到一个可以在个人资料通过该仓库定义的模块，将仓库名设置为“用户名.github.io”，可以得到一个静态的个人主页仓库，也就是在之前的教程中将网页部署到的仓库，之后可以通过“用户名.github.io”访问公开发布的网页。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meirgoo's Site</title><link>https://meirgoo.com/</link><description>Recent content on Meirgoo's Site</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 18 Jan 2026 21:45:39 +0800</lastBuildDate><atom:link href="https://meirgoo.com/index.xml" rel="self" type="application/rss+xml"/><item><title>静态博客部署（二）：域名，给自己的网站一个独一无二的商标</title><link>https://meirgoo.com/docs/domain/</link><pubDate>Sun, 18 Jan 2026 21:45:39 +0800</pubDate><guid>https://meirgoo.com/docs/domain/</guid><description>&lt;p&gt;在不久前的一篇文章中（其实有半年多了），我分享了一下关于如何建立一个简单的个人静态网站并且通过Github Pages部署到公网上。Github的部分特殊仓库名有特殊使用方法，例如将仓库名设置为和用户名相同，可以得到一个可以在个人资料通过该仓库定义的模块，将仓库名设置为“用户名.github.io”，可以得到一个静态的个人主页仓库，也就是在之前的教程中将网页部署到的仓库，之后可以通过“用户名.github.io”访问公开发布的网页。&lt;/p&gt;
 &lt;p&gt;当然这也有一些问题。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -100,78 +100,7 @@
  &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
  &lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;一般来说，CNAME指的是其他域名，例如之前解析的，如果直接解析为数字IP，添加A记录，如果解析为IPV6地址，添加AAAA记录。&lt;/p&gt;</description></item><item><title>从今若许闲乘月</title><link>https://meirgoo.com/docs/runandrun/</link><pubDate>Thu, 15 Jan 2026 23:29:58 +0800</pubDate><guid>https://meirgoo.com/docs/runandrun/</guid><description>&lt;p&gt;故事从哪里说起呢，从小x说起吧。&lt;/p&gt;
-&lt;p&gt;不必有什么长篇大论，总结下来八个大字，小x来了，小x走了。这是四个月hvv OD的故事。&lt;/p&gt;
-&lt;h2 id="缘起"&gt;
- 缘起
- &lt;a class="heading-link" href="#%e7%bc%98%e8%b5%b7"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;如果现在让我去评级OD这个制度，或者进一步说，评价一下华为的外包制度，我不好说。这个世界上有很多种工作，华为的外包对外人来说，甚至可以说是比较体面的，毕竟国内低收入人群，体力劳动者仍然是大多数，能体面的坐在办公室里，点点键盘，一个月能拿个万把块，虽然加班严重，但也已经是比较出众的工作了。&lt;/p&gt;
-&lt;p&gt;然后就是比较纠结的部分，来到这个工作的人，不乏家境优渥，海外留学，国内9本9硕的人，在这么一个环境和标准下，一个比较体面的外包其实并不值一提，但他好就好在愿意收留心碎考研人，收留失足创业人，收留一堆只知道打游戏的混子（比如我）。&lt;/p&gt;
-&lt;p&gt;而当期待、标准与现实落差过大的时候，就说明这段孽缘走到了尽头。&lt;/p&gt;
-&lt;h2 id="众生相"&gt;
- 众生相
- &lt;a class="heading-link" href="#%e4%bc%97%e7%94%9f%e7%9b%b8"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;我个人比较喜欢一句词，“信步鸿蒙之轻，也领苍生之重”，但我从来不敢接后半句，或者直接改成“难领苍生之重”，20年底，我在考研的时候，在政治题大吹全面小康社会的建成，21年底，大年三十，还有骑着破三轮的老头上门讨一块钱买点干粮吃，那时候我觉得我的手是很脏的，苍生太苦太重了，我不敢说能领，或者说没人能，相比之下天地虽大，却可任由我去狂妄的挑战，它们不会在意我，如同我可以蔑视它们一样，就在那里，不来不去。&lt;/p&gt;
-&lt;p&gt;华为内部有个我们自己建起来的英灵殿，小x是我们这一批工号第一个留名的，我当然不会去说他过的苦什么的，算是个富二代家道中落吧，自己学历也相当过关，后面走的不乏美澳留学回来的，不乏富几代的，和我一个小县城自己走出来的，不客气地说我们并不是一个阶层的人，但世事就是那么奇妙，我们来到了同一个地方做同一个外包，把大伙拉到了同一个层次。&lt;/p&gt;
-&lt;p&gt;小x最后走是因为极大的不符合预期，华为觉得身为名校出来应该学习能力和底子足够，但并不是。一个商科出来的能力再足又能会几成计算机呢，最后理所当然的华为觉得应该淘汰掉，不过小x最后是自己提的离职。但是小x并没有立马死掉，大约是十一月提的吧，部门希望可以卡一个人事关系评定，就商量着留到了元旦后走，然后一月四号直接说好聚好散。&lt;/p&gt;
-&lt;p&gt;在我看来真的太正常了，部门利用公司资源给自己个人或者部门内部谋好处再正常不过了，还能落个互相体面，所谓公司不就是这样吗，聚在一起但又各有心思。&lt;/p&gt;
-&lt;p&gt;（当然是我我肯定提前走，你恶心了我那我就要整你，几个钱不如恶心人一下来的痛快，而且真没几个钱。）&lt;/p&gt;
-&lt;p&gt;在此之后，似乎就慢慢的开始走了下坡路，到了十二月开始，差不多是一周走一个，经常出现黑发人送黑发人。&lt;/p&gt;
-&lt;p&gt;如果具体到我们组内，明显的感知就是压力变大，走一两个老人来一个新人，直到今天，我们组已经是一个老人和一伙新人了，还要临时从其他组调外援，然后还是完不成。不过完不成就完不成嘛，完不成也是客观人手不足造成的，反正加班是不可能加的，最多不过一走罢了，这件事没有任何讨论空间，没有免费的奉献。&lt;/p&gt;
-&lt;p&gt;今天经常露面的群友又走了一个，或许我也该准备准备下一站了，或许现在也正在路上，谁知道呢。&lt;/p&gt;
-&lt;h2 id="再议华为"&gt;
- 再议华为
- &lt;a class="heading-link" href="#%e5%86%8d%e8%ae%ae%e5%8d%8e%e4%b8%ba"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;回头再来说说华为。&lt;/p&gt;
-&lt;p&gt;我在其他文章中基本只说了华为OD制度的一些东西，结合当前这些众生相的纪实，再来看看华为是一家怎样的公司。&lt;/p&gt;
-&lt;h3 id="华为是一家阶级分明的公司"&gt;
- 华为是一家阶级分明的公司
- &lt;a class="heading-link" href="#%e5%8d%8e%e4%b8%ba%e6%98%af%e4%b8%80%e5%ae%b6%e9%98%b6%e7%ba%a7%e5%88%86%e6%98%8e%e7%9a%84%e5%85%ac%e5%8f%b8"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;在上个月的时候，我们组说要组织年会，让600去组织（工号具体含义可以参考其他文章），通知HW和OD参加，然后600不能参加。&lt;/p&gt;
-&lt;p&gt;说实话，我是想不出这么幽默的操作，不让做饭的人上桌吃饭始终是一件非常，不要脸的事情，无论是在哪里，在什么事情上，但是华为的人相当的习以为常，自然而然的一种阶级分明，相当相当的，幽默。&lt;/p&gt;
-&lt;h3 id="华为是一家视加班为义务的公司"&gt;
- 华为是一家视加班为义务的公司
- &lt;a class="heading-link" href="#%e5%8d%8e%e4%b8%ba%e6%98%af%e4%b8%80%e5%ae%b6%e8%a7%86%e5%8a%a0%e7%8f%ad%e4%b8%ba%e4%b9%89%e5%8a%a1%e7%9a%84%e5%85%ac%e5%8f%b8"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;某月某日，我也留下了自己的英灵殿记录，因为有人一直想让我义务加班，我一次没有搭理，甚至最近工时越来越短。当然我是无所谓了，有问题可以来找我谈，你就说合同我有没有履约嘛对吧，并不在乎。&lt;/p&gt;
-&lt;p&gt;我并不是什么核心角色，只是一个不值一提的路人，恰巧进来在缺人的时候开始承重，我不觉得我的离职可以打击到谁，我只知道，我离职会释放很多麻烦出去，而麻烦，总归是要有人处理的，这会是一件很麻烦的事情。&lt;/p&gt;
-&lt;p&gt;不过即使后来没有再提，我也不会放弃自己的跳槽计划，有句话说的好，离职的念头就像一点火星，烧起来就再也浇不灭了。&lt;/p&gt;
-&lt;h3 id="华为是一家很搞笑的公司"&gt;
- 华为是一家很搞笑的公司
- &lt;a class="heading-link" href="#%e5%8d%8e%e4%b8%ba%e6%98%af%e4%b8%80%e5%ae%b6%e5%be%88%e6%90%9e%e7%ac%91%e7%9a%84%e5%85%ac%e5%8f%b8"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;最近我在公司内部正在等着有人上门找事，有群莫名其妙的SB开始要求这那的，包括但不限于，工位不能有水杯，桌子上方不能有主机，不能有私人物品，电路板必须收起来，有人被找上门的原因是“领导在监控看到觉得不好看”，问题尼玛是，我们是硬件实验室啊。&lt;/p&gt;
-&lt;p&gt;这群SB是怎么干的呢，说不整改就提单取消门禁资格，我给他们放话是，爱提单提单，让领导来找我就行了，然后至今也没等到。我不知道是不是实在提不出单了，因为他们让我整改的都不在实验室标准上，只是自己一拍脑袋搞出来的东西，反正我觉得少了一个找他们麻烦的由头，我很生气，诶不是怎么这么怂啊。&lt;/p&gt;
-&lt;h2 id="结语"&gt;
- 结语
- &lt;a class="heading-link" href="#%e7%bb%93%e8%af%ad"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;千万不要有什么大公司的滤镜，很多大公司剖开看真的不过如此，至少，华为不行，如果不是家庭困难，谁愿意来华为打螺丝呢。&lt;/p&gt;</description></item><item><title>2025年度总结</title><link>https://meirgoo.com/docs/2025summary/</link><pubDate>Sat, 03 Jan 2026 12:00:00 +0800</pubDate><guid>https://meirgoo.com/docs/2025summary/</guid><description>&lt;h1 id="meirgoo的2025总结"&gt;
+&lt;p&gt;一般来说，CNAME指的是其他域名，例如之前解析的，如果直接解析为数字IP，添加A记录，如果解析为IPV6地址，添加AAAA记录。&lt;/p&gt;</description></item><item><title>2025年度总结</title><link>https://meirgoo.com/docs/2025summary/</link><pubDate>Sat, 03 Jan 2026 12:00:00 +0800</pubDate><guid>https://meirgoo.com/docs/2025summary/</guid><description>&lt;h1 id="meirgoo的2025总结"&gt;
  Meirgoo的2025总结
  &lt;a class="heading-link" href="#meirgoo%e7%9a%842025%e6%80%bb%e7%bb%93"&gt;
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
@@ -238,86 +167,7 @@
  &lt;/a&gt;
 &lt;/h1&gt;
 &lt;p&gt;2025实在难谈从从容容，希望2026可以游刃有余吧，祝好！&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://images.meirgoo.com/2026/2026start.jpg" alt="Go To 2026" title="好的，2026，我们出发了"&gt;&lt;/p&gt;</description></item><item><title>先按解除锁定再按热水</title><link>https://meirgoo.com/docs/hvvod/</link><pubDate>Sun, 23 Nov 2025 20:00:00 +0800</pubDate><guid>https://meirgoo.com/docs/hvvod/</guid><description>&lt;p&gt;华为，一家争议很大的公司，从各种意义上说。&lt;/p&gt;
-&lt;p&gt;本文没研究配图，有点干。&lt;/p&gt;
-&lt;h2 id="华为华为"&gt;
- 华为，华为
- &lt;a class="heading-link" href="#%e5%8d%8e%e4%b8%ba%e5%8d%8e%e4%b8%ba"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;几年前，任总说了一句话，要把寒气传给每个人。&lt;/p&gt;
-&lt;p&gt;我不知道有多少人感受到了寒气，但可以确定的是寒气确实已经扩散开了，一方面是入冬南方迎来的大面积降温，明天寒潮来临，一方面是近几年肉眼可见的就业和经济低迷，相信应届毕业和刚刚被优化的人会深有感触。&lt;/p&gt;
-&lt;p&gt;（华为怎么这么坏啊.jpg）&lt;/p&gt;
-&lt;p&gt;当然这股寒气不是华为传出来的，无论华为有多大的争议，一家私企倒也不至于轻松动摇整个环境，向整个市场开一个16度的空调。如果你是经常混迹网络，对电子、技术有一定理解的人，对互联网舆论有一定独立观点的人，应该能理解华为的争议从何而来，一方面是确实在个别领域可以排到前列，另一方面是深深的德不配位，高价低配还有营销之类的争议。&lt;/p&gt;
-&lt;p&gt;我用华为的设备截止到mete 9，截止到鸿蒙初版发布，然后就没有然后了，因为我并不看好一个新进场纯封闭系统的未来，后面的发展大致也比较符合我的理解，在操作系统市场已经被瓜分差不多的情况下，一个新进场的操作系统没有自己的平台优势，又不肯让利给开发者，就匆匆上了所谓纯血鸿蒙，我个人的评价是肉眼可见的急功近利，从一个小体量开发者的角度来看，既没有自己足够大的市场，也没有直接的利益给到我，而且深知自己的缺点，仍然兼容了安卓应用，我实在找不到一个主动涉及相关生态的理由。&lt;/p&gt;
-&lt;p&gt;我曾以为，以后大概率不会和华为有太大的交集，最多使用的个别设备沾个边之类的，结果最后还是来了华为混口饭吃。&lt;/p&gt;
-&lt;p&gt;哦对，不能说华为，外包罢了。&lt;/p&gt;
-&lt;h2 id="odour-dog"&gt;
- OD，Our Dog
- &lt;a class="heading-link" href="#odour-dog"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;华为的职位制度应该不用解释，网上一搜随便都有，一种是工号600（已经排到601了）、wx开头之类的传统外包，一种是00开头的华为正编员工，还有一种是华为和德科搞出来的300开头的OD外包，意为Our Dog，既没有600的潇洒，也没有00的待遇，当然也可以换一种比较方法，那就是比00轻松，又比600收入高一些，友商的对比方法还是相当好用的。&lt;/p&gt;
-&lt;p&gt;（其实还有一种300开头工号其实是华为分公司的正式编制，但并不清楚有多少人会不会把这种看作华为正式员工）&lt;/p&gt;
-&lt;p&gt;很遗憾，我是前几年被就业市场淘汰的一批人，经历了长时间的空窗期后来了华为，当然是德科主动联系的，也就是很多人吐槽的招聘软件一放简历就有一批人闻着味过来的那种。不过也不意外，毕竟外包公司就是干这个的，也见过被拷打的hr，也亲自拷打过hr（核桃编程，半夜十二点回消息然后问我为什么第一感觉他们工作时间长），似乎很多人并不太理解什么是WLB（work and life balance）。&lt;/p&gt;
-&lt;p&gt;最初来OD也是犹豫过的，毕竟外包嘛，归属感这一块，发展空间这一块，还有狼性文化这一块，都是有很大问题的。不过最后还是来了，毕竟现在这个环境确实选择不多，寒气之下只能先保暖再说，熬过了寒冬才能谈迎春。&lt;/p&gt;
-&lt;p&gt;比较幸运的是，来了一个还算过得去的部门，压力不算大，倒也能临时苟一苟，入职一段时间了，相关情况也能简单唠一唠。&lt;/p&gt;
-&lt;h2 id="快跑"&gt;
- 快跑
- &lt;a class="heading-link" href="#%e5%bf%ab%e8%b7%91"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;在这里，要重申一下前提：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;华为是一家很大的公司，有很多的部门，有很多的人，没有一个公式可以完整的概括一个公司，看哪些，信哪些，需要自己把握。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="狼性文化"&gt;
- 狼性文化
- &lt;a class="heading-link" href="#%e7%8b%bc%e6%80%a7%e6%96%87%e5%8c%96"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;先说狼性文化，有，但本质上来说和OD关系不大。&lt;/p&gt;
-&lt;p&gt;狼性文化应该都听说过，也是华为争议大的一个点，但是在说华为的狼性文化的时候常常提到一条就是华为真的舍得给钱。从此可以推出一条结论，所谓狼性文化就是只要肯干就有上升空间。但实际上OD的上升空间不大，职级较低情况下猛猛加班拿满绩效不会比混满正常工资的人高太多收益，加薪空间也比较有限，所以如果有人明示暗示你要加班，那么可以视为PUA。&lt;/p&gt;
-&lt;p&gt;内部常说的一句话，“真当自己00啊”。他们加班有产出能升职有配股，而这些和OD都没太大关系，什么OD和00同培养标准，能转正，听听算了，真信你就输了，所谓狼性文化有，但基本和外包没什么太大关系，真入脑了就坏了，外包就要有外包的觉悟。&lt;/p&gt;
-&lt;h3 id="部门"&gt;
- 部门
- &lt;a class="heading-link" href="#%e9%83%a8%e9%97%a8"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;每个部门内部也会有自己的文化，我们部门文化相对简单纯粹一些，也有在隔壁部门的只比我多来一段时间就被恶心到离职，如果没有内部人员消息，那只能碰运气。&lt;/p&gt;
-&lt;h3 id="工时"&gt;
- 工时
- &lt;a class="heading-link" href="#%e5%b7%a5%e6%97%b6"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;如果和hr对接过，应该听说过一句话，上午九点上班，每周124晚上八点半下班，35五点半，双休，每月最后一个周六要加班。&lt;/p&gt;
-&lt;p&gt;其实是真的，但不完全真。&lt;/p&gt;
-&lt;p&gt;华为是工时制度，要求每周五天，每天八小时工时，看似不长，但是每天中午一个半小时休息时间和工作日的下午半个小时晚饭时间是不记录工时的，也就是有了124之说，是“奉献工时”。但是算下来为什么是平均每天8.8工时呢，因为部门还会有自己的工时要求。这种套路就很熟悉了吧。但说句比较客观中立的话，有一部分部门工作时长确实比常说的996短不少，只要基于一个前提，部门的工作时长和约定俗成说好的这套差不多，强度也过得去。&lt;/p&gt;
-&lt;p&gt;因为部门之间工作量也有差别，有些部门几乎两班倒，有些部门可以按点上下班，这里要注意一点，OD工作日额外加班只是“奉献”，是没有1.5倍工资的，但是周末确实是双倍工资。所以如果进入一个加班较多的部门，那每天就是纯纯为公司做奉献，而且出于绩效分配占比的问题，绝大部分人的绩效只能是“B里靠前”。&lt;/p&gt;
-&lt;p&gt;这里就有一种很常见说法，“宁O入，为块术”，翻译过来就是，“宁可是OD也要进，为的就是这块技术”，那么就有一个问题，华为的技术真的能带来多大的提升吗？&lt;/p&gt;
-&lt;p&gt;那当然是没有的，例如经常听到一个说法，华为内部技术文档很多，有你学的。但事实是很多搞技术的并不乐意写文档，文档的质量、时效性都无法保证，我入职时别人甩给我的入职流程文档只是为了指标随便抄来改了改，实际已经物是人非，而且很多技术文档并不能提升技术，因为许多技术都高度依赖内部平台，离职后这些经验并不适配其他公司，所以为的这块技术终究是个伪命题，或许可以学到一些向上管理的方法，或许可以学到一些项目整体的经验与认知，但是在大多数情况下，具体的某一个技术内容是没有太大学习的意义的。&lt;/p&gt;
-&lt;h2 id="od众生相"&gt;
- OD众生相
- &lt;a class="heading-link" href="#od%e4%bc%97%e7%94%9f%e7%9b%b8"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;我不确定有多少人考虑过进入OD，如果有人看到了这里，那或许还在考虑这种可能。&lt;/p&gt;
-&lt;p&gt;在华为内部，其实是有一个标准的OD员工画像，具体的记不太全了，包括但不限于“农村出身”、“有技术”、“穷”等等等等，基本就是一个标准的有能力没钱的老实🐮🐎形象（可惜我并不老实，并不符合这个标准画像）。从这里也基本可以看出华为对于OD这种外包的实际定位，就是一个标准可替换的螺丝钉，如果考虑进入的话要理解这一点。&lt;/p&gt;
-&lt;p&gt;不得不说，等级制度其实是对人的相当程度的异化，如果比较符合OD的画像，临时赚点钱也不是不行，毕竟在现在这个经济和就业环境下，华为也算舍得给钱，虽没有几年前IT的辉煌，却也是相对中游的一档工资，学历一般，能力够看一看，有不利于找工作的履历，试一试也未尝不可。&lt;/p&gt;</description></item><item><title>网址收藏</title><link>https://meirgoo.com/collection/</link><pubDate>Sat, 15 Nov 2025 12:00:00 +0800</pubDate><guid>https://meirgoo.com/collection/</guid><description>&lt;h1 id="前言"&gt;
+&lt;p&gt;&lt;img src="https://images.meirgoo.com/2026/2026start.jpg" alt="Go To 2026" title="好的，2026，我们出发了"&gt;&lt;/p&gt;</description></item><item><title>网址收藏</title><link>https://meirgoo.com/collection/</link><pubDate>Sat, 15 Nov 2025 12:00:00 +0800</pubDate><guid>https://meirgoo.com/collection/</guid><description>&lt;h1 id="前言"&gt;
  前言
  &lt;a class="heading-link" href="#%e5%89%8d%e8%a8%80"&gt;
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
@@ -480,7 +330,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;获取并准备第三方激活工具&lt;/strong&gt;：&lt;/p&gt;</description></item><item><title>零基础构建个人博客：Hugo搭建和GitHub Pages部署完全指南</title><link>https://meirgoo.com/docs/hugo-website/</link><pubDate>Tue, 04 Nov 2025 22:53:45 +0800</pubDate><guid>https://meirgoo.com/docs/hugo-website/</guid><description>&lt;h2 id="前言在互联网上拥有自己的一块地"&gt;
+&lt;p&gt;&lt;strong&gt;获取并准备第三方激活工具&lt;/strong&gt;：&lt;/p&gt;</description></item><item><title>静态博客部署（一）：Hugo建站和GitHub Pages部署</title><link>https://meirgoo.com/docs/hugo-website/</link><pubDate>Tue, 04 Nov 2025 22:53:45 +0800</pubDate><guid>https://meirgoo.com/docs/hugo-website/</guid><description>&lt;h2 id="前言在互联网上拥有自己的一块地"&gt;
  前言：在互联网上拥有自己的一块地
  &lt;a class="heading-link" href="#%e5%89%8d%e8%a8%80%e5%9c%a8%e4%ba%92%e8%81%94%e7%bd%91%e4%b8%8a%e6%8b%a5%e6%9c%89%e8%87%aa%e5%b7%b1%e7%9a%84%e4%b8%80%e5%9d%97%e5%9c%b0"&gt;
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
