@@ -1,0 +1,152 @@
+<!doctype html><html lang=en><head><title>静态博客部署（三）：S2存储桶，增添一些文字之外的东西 · Meirgoo's Site</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=color-scheme content="light dark"><meta name=author content="Meirgoo"><meta name=description content="在之前的两篇文章中，已经较为详细的说明了关于网站生成和部署方面的内容，想要推送文章更新也非常容易，new一篇新文章直接push到github即可。如果你回顾我更早写的一些东西和之后写的东西，可以发现一个很大的区别，我的较早写的东西一般都是纯文字没有图片的。是因为早期的内容不需要图片吗？非也，只是因为早期并没有考虑到图片存放的问题，后来才选择了相关方案，其实这个问题也可以单开一篇讲一讲。
+
+  hugo和markdown的图片添加方式
+  
+    
+    链接到标题
+  
+
+首先我们可以明确一些基础认知，图片也好，文字也好，本质上都是一种“资源”，需要通过一定路径去访问资源，引用到页面中。
+引入图片的方式有很多，我也只使用过一部分，如果有兴趣使用hugo自带的短代码方法，可以参考该说明,如果希望有更简单好用的方式，那么首先可以确认在网址根路径创建static文件夹，在hugo生成静态网站的过程中，该路径下文件会原样复制到网站中以供引用，然后使用
+![图片说明](图片路径)
+就可以引入图片到文档中。
+当然这是非常简单的一步，但是存在一些问题。
+首先就是github对于仓库的一些限制,在文档中非常明确的指出了对仓库的大小限制。客观来讲，github其实给了一个不算低的容量，仅对于一个个人站点来说可以说是相当富裕，大多数图片一般都是几百K大小，并且绝大多数人都很难去维持一个长线的内容输出，对于这些人来说，仓库大小并不是什么非常严重的问题。
+如果你真的这么做了，但是后续内容输出还可以，因此囤积了较多的图片，导致在新位置拉取仓库时需要较长的时间，那么可以考虑一下图床方案，仅在github中存储文字部分。
+
+  图床添加图片
+  
+    
+    链接到标题
+  
+
+
+  什么是图床
+  
+    
+    链接到标题
+  
+
+简单来讲，图床就是一个在线的图片存储仓库，有些人看到现在花花绿绿的互联网或许会不理解，因为已经习惯了在网上在本地存储大量图片的情况，那么现在思考一个问题，我在微信上发送和接收的图片，我该用一个什么方式通过互联网引用到呢？
+很显然是不可以的，图床的意义就在于此，可以给存储到互联网的图片资源一个网络地址，之后就可以通过一个链接直接引用到这一张图片。在浏览部分网址的时候可以试试右击图片，可以看到一个选项“复制图片链接”，之后可以尝试粘贴该链接到浏览器中直接访问，然后就可以单独打开这张图片或者看到403（服务器拒绝访问，即服务器不想单独给你这张图片）。
+那么作为个人，有什么方法可以选择一种方式，在互联网上存储图片并且得到一个这样的地址呢，一个选择就是使用一些成熟的媒体，例如什么新闻网站，社交媒体等，公开发送这张图片也可以在其他地方引用，当然仅仅为了引用几张图片有点没必要，因为公开之后就不仅仅是引用图片那么简单，针对这种情况，就有了图床服务。
+比较遗憾的是，出于存储和带宽成本，目前或大或小的图床都有较高的跑路风险，这样就会造成图片的永久丢失，因此本文不做图床推荐，而是推荐一种通过Cloudflare S2 bucket存放资源的方案。
+（如果有兴趣挖掘一下，其实可以白嫖很多很好用的个互联网服务）
+
+  Cloudflare S2 Bucket
+  
+    
+    链接到标题
+  
+
+
+  创建存储桶
+  
+    
+    链接到标题
+  
+
+首先要明确一点，该服务对于流量一般的个人来说，是等同免费使用，但是本身并不是免费服务，因此或许需要提供一张有效的外币信用卡。
+首先在Cloudflare左侧选择R2对象存储，新建存储桶，起一个名字，存储桶相关的数据有三个，A类操作，B类操作和总储存。其中A类操作包括创建、列出和复制对象以及管理存储桶在内的操作，B类操作包括读取对象及其关联元数据以及读取存储桶配置在内的操作，总储存表示所有存储桶（包括所有存储类）的当前总存储空间。
+
+如果使用免费存储方案，那么每个月有10G的存储空间，一百万的A类操作和一千万的B类操作额度，没有出口带宽和流量限制。如果直观的感受一下这个额度的含义的话，我的网站每日各种访问（包括爬虫）有几十个，每个月下来大约有1-2K的B类操作用量，这个免费额度个人使用基本等同于免费。
+创建完存储桶之后：
+
+点开存储桶，进入设置页面
+在左侧找到自定义域这一项
+添加自己的子域名
+（在上一篇文章中已经简要的解释了下二级域名，这里推荐使用 images.域名.后缀，这里的域名会被自动添加到DNS解析中，因此注意使用一个合理的二级域名。）
+
+
+完成如上操作之后，就可以通过设置好的域名访问该存储桶，但是这里的访问并不是指可以直接通过网页看到一个菜单或者类似的东西，在此之前，首先应该添加一张图片。
+
+  向存储桶中添加图片
+  
+    
+    链接到标题
+  
+
+存储桶可以简单理解为一个在线的图片文件夹，文件组织方式也类似，但是在管理和使用上并不像本地的文件夹和文件一样。当然也有一些第三方的软件可以提供类似的功能，但是在此之前先不做推荐，先介绍一种比较简单的方式。
+在存储桶界面中进入存储桶可以看到一个文件展示的模块，在右上角有上传和添加目录的选项，OK，就这些。
+是的，在网页中添加文件是非常简单的一件事。
+如果想要访问文件，只需要在浏览器中使用刚刚设置的域名，在域名后面添加文件名即可。
+
+如上图举例，我有一张在存储桶根目录的名为“兔斯基.jpg”的图片，那么可以通过
+https://images.meirgoo.com/兔斯基.jpg
+访问该图片，这个地址就是我存储的这张图片在互联网上的地址。
+如果希望在文章中引用该图片，则可以使用如下markdown语法。
+![图片示例](https://images.meirgoo.com/兔斯基.jpg)
+在文章中的展示效果如下图所示。
+"><meta name=keywords content="blog,developer,personal"><meta name=twitter:card content="summary"><meta name=twitter:title content="静态博客部署（三）：S2存储桶，增添一些文字之外的东西"><meta name=twitter:description content="在之前的两篇文章中，已经较为详细的说明了关于网站生成和部署方面的内容，想要推送文章更新也非常容易，new一篇新文章直接push到github即可。如果你回顾我更早写的一些东西和之后写的东西，可以发现一个很大的区别，我的较早写的东西一般都是纯文字没有图片的。是因为早期的内容不需要图片吗？非也，只是因为早期并没有考虑到图片存放的问题，后来才选择了相关方案，其实这个问题也可以单开一篇讲一讲。
+hugo和markdown的图片添加方式 链接到标题 首先我们可以明确一些基础认知，图片也好，文字也好，本质上都是一种“资源”，需要通过一定路径去访问资源，引用到页面中。
+引入图片的方式有很多，我也只使用过一部分，如果有兴趣使用hugo自带的短代码方法，可以参考该说明,如果希望有更简单好用的方式，那么首先可以确认在网址根路径创建static文件夹，在hugo生成静态网站的过程中，该路径下文件会原样复制到网站中以供引用，然后使用
+![图片说明](图片路径) 就可以引入图片到文档中。
+当然这是非常简单的一步，但是存在一些问题。
+首先就是github对于仓库的一些限制,在文档中非常明确的指出了对仓库的大小限制。客观来讲，github其实给了一个不算低的容量，仅对于一个个人站点来说可以说是相当富裕，大多数图片一般都是几百K大小，并且绝大多数人都很难去维持一个长线的内容输出，对于这些人来说，仓库大小并不是什么非常严重的问题。
+如果你真的这么做了，但是后续内容输出还可以，因此囤积了较多的图片，导致在新位置拉取仓库时需要较长的时间，那么可以考虑一下图床方案，仅在github中存储文字部分。
+图床添加图片 链接到标题 什么是图床 链接到标题 简单来讲，图床就是一个在线的图片存储仓库，有些人看到现在花花绿绿的互联网或许会不理解，因为已经习惯了在网上在本地存储大量图片的情况，那么现在思考一个问题，我在微信上发送和接收的图片，我该用一个什么方式通过互联网引用到呢？
+很显然是不可以的，图床的意义就在于此，可以给存储到互联网的图片资源一个网络地址，之后就可以通过一个链接直接引用到这一张图片。在浏览部分网址的时候可以试试右击图片，可以看到一个选项“复制图片链接”，之后可以尝试粘贴该链接到浏览器中直接访问，然后就可以单独打开这张图片或者看到403（服务器拒绝访问，即服务器不想单独给你这张图片）。
+那么作为个人，有什么方法可以选择一种方式，在互联网上存储图片并且得到一个这样的地址呢，一个选择就是使用一些成熟的媒体，例如什么新闻网站，社交媒体等，公开发送这张图片也可以在其他地方引用，当然仅仅为了引用几张图片有点没必要，因为公开之后就不仅仅是引用图片那么简单，针对这种情况，就有了图床服务。
+比较遗憾的是，出于存储和带宽成本，目前或大或小的图床都有较高的跑路风险，这样就会造成图片的永久丢失，因此本文不做图床推荐，而是推荐一种通过Cloudflare S2 bucket存放资源的方案。
+（如果有兴趣挖掘一下，其实可以白嫖很多很好用的个互联网服务）
+Cloudflare S2 Bucket 链接到标题 创建存储桶 链接到标题 首先要明确一点，该服务对于流量一般的个人来说，是等同免费使用，但是本身并不是免费服务，因此或许需要提供一张有效的外币信用卡。
+首先在Cloudflare左侧选择R2对象存储，新建存储桶，起一个名字，存储桶相关的数据有三个，A类操作，B类操作和总储存。其中A类操作包括创建、列出和复制对象以及管理存储桶在内的操作，B类操作包括读取对象及其关联元数据以及读取存储桶配置在内的操作，总储存表示所有存储桶（包括所有存储类）的当前总存储空间。
+如果使用免费存储方案，那么每个月有10G的存储空间，一百万的A类操作和一千万的B类操作额度，没有出口带宽和流量限制。如果直观的感受一下这个额度的含义的话，我的网站每日各种访问（包括爬虫）有几十个，每个月下来大约有1-2K的B类操作用量，这个免费额度个人使用基本等同于免费。
+创建完存储桶之后：
+点开存储桶，进入设置页面 在左侧找到自定义域这一项 添加自己的子域名
+（在上一篇文章中已经简要的解释了下二级域名，这里推荐使用 images.域名.后缀，这里的域名会被自动添加到DNS解析中，因此注意使用一个合理的二级域名。） 完成如上操作之后，就可以通过设置好的域名访问该存储桶，但是这里的访问并不是指可以直接通过网页看到一个菜单或者类似的东西，在此之前，首先应该添加一张图片。
+向存储桶中添加图片 链接到标题 存储桶可以简单理解为一个在线的图片文件夹，文件组织方式也类似，但是在管理和使用上并不像本地的文件夹和文件一样。当然也有一些第三方的软件可以提供类似的功能，但是在此之前先不做推荐，先介绍一种比较简单的方式。
+在存储桶界面中进入存储桶可以看到一个文件展示的模块，在右上角有上传和添加目录的选项，OK，就这些。
+是的，在网页中添加文件是非常简单的一件事。
+如果想要访问文件，只需要在浏览器中使用刚刚设置的域名，在域名后面添加文件名即可。
+如上图举例，我有一张在存储桶根目录的名为“兔斯基.jpg”的图片，那么可以通过
+https://images.meirgoo.com/兔斯基.jpg 访问该图片，这个地址就是我存储的这张图片在互联网上的地址。
+如果希望在文章中引用该图片，则可以使用如下markdown语法。
+![图片示例](https://images.meirgoo.com/兔斯基.jpg) 在文章中的展示效果如下图所示。"><meta property="og:url" content="https://meirgoo.com/docs/s2bucket/"><meta property="og:site_name" content="Meirgoo's Site"><meta property="og:title" content="静态博客部署（三）：S2存储桶，增添一些文字之外的东西"><meta property="og:description" content="在之前的两篇文章中，已经较为详细的说明了关于网站生成和部署方面的内容，想要推送文章更新也非常容易，new一篇新文章直接push到github即可。如果你回顾我更早写的一些东西和之后写的东西，可以发现一个很大的区别，我的较早写的东西一般都是纯文字没有图片的。是因为早期的内容不需要图片吗？非也，只是因为早期并没有考虑到图片存放的问题，后来才选择了相关方案，其实这个问题也可以单开一篇讲一讲。
+hugo和markdown的图片添加方式 链接到标题 首先我们可以明确一些基础认知，图片也好，文字也好，本质上都是一种“资源”，需要通过一定路径去访问资源，引用到页面中。
+引入图片的方式有很多，我也只使用过一部分，如果有兴趣使用hugo自带的短代码方法，可以参考该说明,如果希望有更简单好用的方式，那么首先可以确认在网址根路径创建static文件夹，在hugo生成静态网站的过程中，该路径下文件会原样复制到网站中以供引用，然后使用
+![图片说明](图片路径) 就可以引入图片到文档中。
+当然这是非常简单的一步，但是存在一些问题。
+首先就是github对于仓库的一些限制,在文档中非常明确的指出了对仓库的大小限制。客观来讲，github其实给了一个不算低的容量，仅对于一个个人站点来说可以说是相当富裕，大多数图片一般都是几百K大小，并且绝大多数人都很难去维持一个长线的内容输出，对于这些人来说，仓库大小并不是什么非常严重的问题。
+如果你真的这么做了，但是后续内容输出还可以，因此囤积了较多的图片，导致在新位置拉取仓库时需要较长的时间，那么可以考虑一下图床方案，仅在github中存储文字部分。
+图床添加图片 链接到标题 什么是图床 链接到标题 简单来讲，图床就是一个在线的图片存储仓库，有些人看到现在花花绿绿的互联网或许会不理解，因为已经习惯了在网上在本地存储大量图片的情况，那么现在思考一个问题，我在微信上发送和接收的图片，我该用一个什么方式通过互联网引用到呢？
+很显然是不可以的，图床的意义就在于此，可以给存储到互联网的图片资源一个网络地址，之后就可以通过一个链接直接引用到这一张图片。在浏览部分网址的时候可以试试右击图片，可以看到一个选项“复制图片链接”，之后可以尝试粘贴该链接到浏览器中直接访问，然后就可以单独打开这张图片或者看到403（服务器拒绝访问，即服务器不想单独给你这张图片）。
+那么作为个人，有什么方法可以选择一种方式，在互联网上存储图片并且得到一个这样的地址呢，一个选择就是使用一些成熟的媒体，例如什么新闻网站，社交媒体等，公开发送这张图片也可以在其他地方引用，当然仅仅为了引用几张图片有点没必要，因为公开之后就不仅仅是引用图片那么简单，针对这种情况，就有了图床服务。
+比较遗憾的是，出于存储和带宽成本，目前或大或小的图床都有较高的跑路风险，这样就会造成图片的永久丢失，因此本文不做图床推荐，而是推荐一种通过Cloudflare S2 bucket存放资源的方案。
+（如果有兴趣挖掘一下，其实可以白嫖很多很好用的个互联网服务）
+Cloudflare S2 Bucket 链接到标题 创建存储桶 链接到标题 首先要明确一点，该服务对于流量一般的个人来说，是等同免费使用，但是本身并不是免费服务，因此或许需要提供一张有效的外币信用卡。
+首先在Cloudflare左侧选择R2对象存储，新建存储桶，起一个名字，存储桶相关的数据有三个，A类操作，B类操作和总储存。其中A类操作包括创建、列出和复制对象以及管理存储桶在内的操作，B类操作包括读取对象及其关联元数据以及读取存储桶配置在内的操作，总储存表示所有存储桶（包括所有存储类）的当前总存储空间。
+如果使用免费存储方案，那么每个月有10G的存储空间，一百万的A类操作和一千万的B类操作额度，没有出口带宽和流量限制。如果直观的感受一下这个额度的含义的话，我的网站每日各种访问（包括爬虫）有几十个，每个月下来大约有1-2K的B类操作用量，这个免费额度个人使用基本等同于免费。
+创建完存储桶之后：
+点开存储桶，进入设置页面 在左侧找到自定义域这一项 添加自己的子域名
+（在上一篇文章中已经简要的解释了下二级域名，这里推荐使用 images.域名.后缀，这里的域名会被自动添加到DNS解析中，因此注意使用一个合理的二级域名。） 完成如上操作之后，就可以通过设置好的域名访问该存储桶，但是这里的访问并不是指可以直接通过网页看到一个菜单或者类似的东西，在此之前，首先应该添加一张图片。
+向存储桶中添加图片 链接到标题 存储桶可以简单理解为一个在线的图片文件夹，文件组织方式也类似，但是在管理和使用上并不像本地的文件夹和文件一样。当然也有一些第三方的软件可以提供类似的功能，但是在此之前先不做推荐，先介绍一种比较简单的方式。
+在存储桶界面中进入存储桶可以看到一个文件展示的模块，在右上角有上传和添加目录的选项，OK，就这些。
+是的，在网页中添加文件是非常简单的一件事。
+如果想要访问文件，只需要在浏览器中使用刚刚设置的域名，在域名后面添加文件名即可。
+如上图举例，我有一张在存储桶根目录的名为“兔斯基.jpg”的图片，那么可以通过
+https://images.meirgoo.com/兔斯基.jpg 访问该图片，这个地址就是我存储的这张图片在互联网上的地址。
+如果希望在文章中引用该图片，则可以使用如下markdown语法。
+![图片示例](https://images.meirgoo.com/兔斯基.jpg) 在文章中的展示效果如下图所示。"><meta property="og:locale" content="zh_cn"><meta property="og:type" content="article"><meta property="article:section" content="docs"><meta property="article:published_time" content="2026-01-27T22:18:05+08:00"><meta property="article:modified_time" content="2026-01-27T22:18:05+08:00"><link rel=canonical href=https://meirgoo.com/docs/s2bucket/><link rel=preload href=/fonts/fa-brands-400.woff2 as=font type=font/woff2 crossorigin><link rel=preload href=/fonts/fa-regular-400.woff2 as=font type=font/woff2 crossorigin><link rel=preload href=/fonts/fa-solid-900.woff2 as=font type=font/woff2 crossorigin><link rel=stylesheet href=/css/coder.min.4b392a85107b91dbdabc528edf014a6ab1a30cd44cafcd5325c8efe796794fca.css integrity="sha256-SzkqhRB7kdvavFKO3wFKarGjDNRMr81TJcjv55Z5T8o=" crossorigin=anonymous media=screen><link rel=stylesheet href=/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin=anonymous media=screen><link rel=icon type=image/svg+xml href=/img/favicon.svg sizes=any><link rel=icon type=image/png href=/img/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/img/favicon-16x16.png sizes=16x16><link rel=apple-touch-icon href=/images/apple-touch-icon.png><link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png><link rel=manifest href=/site.webmanifest><link rel=mask-icon href=/images/safari-pinned-tab.svg color=#5bbad5></head><body class="preload-transitions colorscheme-auto"><div class=float-container><a id=dark-mode-toggle class=colorscheme-toggle><i class="fa-solid fa-adjust fa-fw" aria-hidden=true></i></a></div><main class=wrapper><nav class=navigation><section class=container><a class=navigation-title href=https://meirgoo.com/>Meirgoo's Site
+</a><input type=checkbox id=menu-toggle>
+<label class="menu-button float-right" for=menu-toggle><i class="fa-solid fa-bars fa-fw" aria-hidden=true></i></label><ul class=navigation-list><li class=navigation-item><a class=navigation-link href=/docs/>文档</a></li><li class=navigation-item><a class=navigation-link href=/collection/>网址收藏</a></li><li class=navigation-item><a class=navigation-link href=/about/>关于</a></li></ul></section></nav><div class=content><section class="container page"><article><header><h1 class=title><a class=title-link href=https://meirgoo.com/docs/s2bucket/>静态博客部署（三）：S2存储桶，增添一些文字之外的东西</a></h1></header><p>在之前的两篇文章中，已经较为详细的说明了关于网站生成和部署方面的内容，想要推送文章更新也非常容易，new一篇新文章直接push到github即可。如果你回顾我更早写的一些东西和之后写的东西，可以发现一个很大的区别，我的较早写的东西一般都是纯文字没有图片的。是因为早期的内容不需要图片吗？非也，只是因为早期并没有考虑到图片存放的问题，后来才选择了相关方案，其实这个问题也可以单开一篇讲一讲。</p><h2 id=hugo和markdown的图片添加方式>hugo和markdown的图片添加方式
+<a class=heading-link href=#hugo%e5%92%8cmarkdown%e7%9a%84%e5%9b%be%e7%89%87%e6%b7%bb%e5%8a%a0%e6%96%b9%e5%bc%8f><i class="fa-solid fa-link" aria-hidden=true title=链接到标题></i>
+<span class=sr-only>链接到标题</span></a></h2><p>首先我们可以明确一些基础认知，图片也好，文字也好，本质上都是一种“资源”，需要通过一定路径去访问资源，引用到页面中。</p><p>引入图片的方式有很多，我也只使用过一部分，如果有兴趣使用hugo自带的短代码方法，可以参考<a href=https://hugo.opendocs.io/zh-cn/content-management/image-processing/ class=external-link target=_blank rel=noopener>该说明</a>,如果希望有更简单好用的方式，那么首先可以确认在网址根路径创建static文件夹，在hugo生成静态网站的过程中，该路径下文件会原样复制到网站中以供引用，然后使用</p><pre tabindex=0><code>![图片说明](图片路径)
+</code></pre><p>就可以引入图片到文档中。</p><p>当然这是非常简单的一步，但是存在一些问题。</p><p>首先就是<a href=https://docs.github.com/zh/repositories/creating-and-managing-repositories/repository-limits class=external-link target=_blank rel=noopener>github对于仓库的一些限制</a>,在文档中非常明确的指出了对仓库的大小限制。客观来讲，github其实给了一个不算低的容量，仅对于一个个人站点来说可以说是相当富裕，大多数图片一般都是几百K大小，并且绝大多数人都很难去维持一个长线的内容输出，对于这些人来说，仓库大小并不是什么非常严重的问题。</p><p>如果你真的这么做了，但是后续内容输出还可以，因此囤积了较多的图片，导致在新位置拉取仓库时需要较长的时间，那么可以考虑一下图床方案，仅在github中存储文字部分。</p><h2 id=图床添加图片>图床添加图片
+<a class=heading-link href=#%e5%9b%be%e5%ba%8a%e6%b7%bb%e5%8a%a0%e5%9b%be%e7%89%87><i class="fa-solid fa-link" aria-hidden=true title=链接到标题></i>
+<span class=sr-only>链接到标题</span></a></h2><h3 id=什么是图床>什么是图床
+<a class=heading-link href=#%e4%bb%80%e4%b9%88%e6%98%af%e5%9b%be%e5%ba%8a><i class="fa-solid fa-link" aria-hidden=true title=链接到标题></i>
+<span class=sr-only>链接到标题</span></a></h3><p>简单来讲，图床就是一个在线的图片存储仓库，有些人看到现在花花绿绿的互联网或许会不理解，因为已经习惯了在网上在本地存储大量图片的情况，那么现在思考一个问题，我在微信上发送和接收的图片，我该用一个什么方式通过互联网引用到呢？</p><p>很显然是不可以的，图床的意义就在于此，可以给存储到互联网的图片资源一个网络地址，之后就可以通过一个链接直接引用到这一张图片。在浏览部分网址的时候可以试试右击图片，可以看到一个选项“复制图片链接”，之后可以尝试粘贴该链接到浏览器中直接访问，然后就可以单独打开这张图片或者看到403（服务器拒绝访问，即服务器不想单独给你这张图片）。</p><p>那么作为个人，有什么方法可以选择一种方式，在互联网上存储图片并且得到一个这样的地址呢，一个选择就是使用一些成熟的媒体，例如什么新闻网站，社交媒体等，公开发送这张图片也可以在其他地方引用，当然仅仅为了引用几张图片有点没必要，因为公开之后就不仅仅是引用图片那么简单，针对这种情况，就有了图床服务。</p><p>比较遗憾的是，出于存储和带宽成本，目前或大或小的图床都有较高的跑路风险，这样就会造成图片的永久丢失，因此本文不做图床推荐，而是推荐一种通过Cloudflare S2 bucket存放资源的方案。</p><p>（如果有兴趣挖掘一下，其实可以白嫖很多很好用的个互联网服务）</p><h2 id=cloudflare-s2-bucket>Cloudflare S2 Bucket
+<a class=heading-link href=#cloudflare-s2-bucket><i class="fa-solid fa-link" aria-hidden=true title=链接到标题></i>
+<span class=sr-only>链接到标题</span></a></h2><h3 id=创建存储桶>创建存储桶
+<a class=heading-link href=#%e5%88%9b%e5%bb%ba%e5%ad%98%e5%82%a8%e6%a1%b6><i class="fa-solid fa-link" aria-hidden=true title=链接到标题></i>
+<span class=sr-only>链接到标题</span></a></h3><p>首先要明确一点，该服务对于流量一般的个人来说，是等同免费使用，但是本身并不是免费服务，因此或许需要提供一张有效的外币信用卡。</p><p>首先在Cloudflare左侧选择R2对象存储，新建存储桶，起一个名字，存储桶相关的数据有三个，A类操作，B类操作和总储存。其中A类操作包括创建、列出和复制对象以及管理存储桶在内的操作，B类操作包括读取对象及其关联元数据以及读取存储桶配置在内的操作，总储存表示所有存储桶（包括所有存储类）的当前总存储空间。</p><p><img src=https://images.meirgoo.com/2026/1/28/2026-1-28-1.png alt=图片1></p><p>如果使用免费存储方案，那么每个月有10G的存储空间，一百万的A类操作和一千万的B类操作额度，没有出口带宽和流量限制。如果直观的感受一下这个额度的含义的话，我的网站每日各种访问（包括爬虫）有几十个，每个月下来大约有1-2K的B类操作用量，这个免费额度个人使用基本等同于免费。</p><p>创建完存储桶之后：</p><ol><li>点开存储桶，进入设置页面</li><li>在左侧找到自定义域这一项</li><li>添加自己的子域名<br>（在上一篇文章中已经简要的解释了下二级域名，这里推荐使用 images.域名.后缀，这里的域名会被自动添加到DNS解析中，因此注意使用一个合理的二级域名。）</li></ol><p><img src=https://images.meirgoo.com/2026/1/28/2026-1-28-2.png alt=图片2></p><p>完成如上操作之后，就可以通过设置好的域名访问该存储桶，但是这里的访问并不是指可以直接通过网页看到一个菜单或者类似的东西，在此之前，首先应该添加一张图片。</p><h3 id=向存储桶中添加图片>向存储桶中添加图片
+<a class=heading-link href=#%e5%90%91%e5%ad%98%e5%82%a8%e6%a1%b6%e4%b8%ad%e6%b7%bb%e5%8a%a0%e5%9b%be%e7%89%87><i class="fa-solid fa-link" aria-hidden=true title=链接到标题></i>
+<span class=sr-only>链接到标题</span></a></h3><p>存储桶可以简单理解为一个在线的图片文件夹，文件组织方式也类似，但是在管理和使用上并不像本地的文件夹和文件一样。当然也有一些第三方的软件可以提供类似的功能，但是在此之前先不做推荐，先介绍一种比较简单的方式。</p><p>在存储桶界面中进入存储桶可以看到一个文件展示的模块，在右上角有上传和添加目录的选项，OK，就这些。</p><p>是的，在网页中添加文件是非常简单的一件事。</p><p>如果想要访问文件，只需要在浏览器中使用刚刚设置的域名，在域名后面添加文件名即可。</p><p><img src=https://images.meirgoo.com/2026/1/28/2026-1-28-3.png alt=图片3></p><p>如上图举例，我有一张在存储桶根目录的名为“兔斯基.jpg”的图片，那么可以通过</p><pre tabindex=0><code>https://images.meirgoo.com/兔斯基.jpg
+</code></pre><p>访问该图片，这个地址就是我存储的这张图片在互联网上的地址。</p><p>如果希望在文章中引用该图片，则可以使用如下markdown语法。</p><pre tabindex=0><code>![图片示例](https://images.meirgoo.com/兔斯基.jpg)
+</code></pre><p>在文章中的展示效果如下图所示。</p><p><img src=https://images.meirgoo.com/%E5%85%94%E6%96%AF%E5%9F%BA.jpg alt=图片示例></p></article></section></div><footer class=footer><section class=container>©
+2025 -
+2026
+Meirgoo
+·
+技术支持 <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> & <a href=https://github.com/luizdepra/hugo-coder/ target=_blank rel=noopener>Coder</a>.</section></footer></main><script src=/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script></body></html>
