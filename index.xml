@@ -471,5 +471,5 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;验证 winget 包管理器&lt;/strong&gt;：
 在PowerShell中输入以下命令并按回车执行（后续命令行操作均为此方式，不再赘述）：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;winget
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;winget
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果看到一长串帮助信息列表，说明winget已正常工作。&lt;/p&gt;</description></item></channel></rss>
